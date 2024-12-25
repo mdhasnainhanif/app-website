@@ -8,44 +8,60 @@ $('.toggle2').click(function()
 });
 
 
-$(document).ready(function() {
-  $('.scroller-item').hide().first().show();
-
+$(document).ready(function () {
   var section = $('.processdevelopment-section');
+  var scrollerItems = $('.scroller-item');
+  var progressLine = section.find('.progress-line'); // Select the progress line
 
-  // Check if the section exists
+  // Initialize: first image is active
+  scrollerItems.eq(0).addClass('active');
 
-  if (section.length > 0) 
-    {
-      $(window).on('scroll', function() 
-      {
-          var scrollTop = $(window).scrollTop();
-          var windowHeight = $(window).height();
-          var sectionTop = section.offset().top;
-          var sectionBottom = sectionTop + section.outerHeight();
+  if (section.length > 0) {
+    $(window).on('scroll', function () {
+      var scrollTop = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      var sectionTop = section.offset().top;
+      var sectionHeight = section.outerHeight();
+      var sectionBottom = sectionTop + sectionHeight;
 
-          console.log($(window).scrollTop(), scrollTop, windowHeight, sectionTop, sectionBottom, scrollTop - sectionTop);
+      // Update progress line height
+      if (scrollTop >= sectionTop && scrollTop <= sectionBottom) {
+        var progress = ((scrollTop - sectionTop) / sectionHeight) * 100;
+        progressLine.css('height', progress + '%');
+      } else if (scrollTop < sectionTop) {
+        progressLine.css('height', '0%');
+      } else if (scrollTop > sectionBottom) {
+        progressLine.css('height', '100%');
+      }
 
-          section.find('.progress-line').height(scrollTop - sectionTop - 10);
+      // Image activation logic
+      if (scrollTop + windowHeight > sectionTop && scrollTop < sectionBottom) {
+        section.find('.scroller-content').each(function (index) {
+          var $this = $(this);
+          var contentTop = $this.offset().top;
+          var contentBottom = contentTop + $this.outerHeight();
 
-          if (scrollTop + windowHeight > sectionTop && scrollTop < sectionBottom) {
-              section.find('.scroller-content').each(function(index) {
-                  var $this = $(this);
-                  var contentTop = $this.offset().top;
-                  var contentBottom = contentTop + $this.outerHeight();
-
-                  if (scrollTop + windowHeight > contentTop && scrollTop < contentBottom) {
-                      showImage(index);
-                  }
-              });
+          if (scrollTop + windowHeight / 2 >= contentTop && scrollTop + windowHeight / 2 < contentBottom) {
+            activateImage(index);
           }
-      });
-   }
+        });
+      }
+    });
+  }
 
-  function showImage(index) {
-      $('.scroller-item').hide().eq(index).show();
+  function activateImage(index) {
+    // Mark all previous images as "previous"
+    scrollerItems.slice(0, index).removeClass('active').addClass('previous');
+
+    // Activate the current image
+    scrollerItems.eq(index).addClass('active').removeClass('previous');
+
+    // Deactivate all following images
+    scrollerItems.slice(index + 1).removeClass('active').removeClass('previous');
   }
 });
+
+
 
 // slick slider black banner
 
