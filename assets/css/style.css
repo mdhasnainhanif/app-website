@@ -479,7 +479,7 @@ section.homebanner .banner-wrapper .banner-content p {
 }
 .right-image .mobileimg2 {
   position: absolute;
-  right: 0;
+  right: -12px;
   /* top: -87px; */
   top: -13rem;
   width: 100%;
