@@ -4661,3 +4661,15 @@ section.androidAppCount .counter-div{
 .filterGray{
   filter: grayscale(1);
 }
+
+.submenu-list > a {
+  padding-top: 0rem !important;
+}
+
+.submenu-list a:before {
+  content: none !important;
+}
+
+.submenu-list a:hover:before {
+  content: none !important;
+}
