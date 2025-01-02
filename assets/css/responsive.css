@@ -1004,6 +1004,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0.33rem 0rem;
   }
   .mobile-menu nav .collapse-menu {
     transition: height 0.3s;
@@ -1011,7 +1012,10 @@
     height: 0px;
   }
   .mobile-menu nav .collapse-menu.show {
-    height: 200px;
+    height: 320px;
+  }
+  .submenu-list ul li:before{
+    top: 7px;
   }
   .mobile-menu ul li a.getstarted {
     background: #ab0300;
@@ -1087,7 +1091,7 @@
     transition: 0.3s ease;
   }
   .mobile-menu ul li.dropdown-menu2.active .mega-menu2 {
-    height: 600px;
+    height: 170px;
     overflow-y: scroll;
   }
   .mega-menu2 {
