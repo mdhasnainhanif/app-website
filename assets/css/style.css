@@ -181,7 +181,8 @@ a.logo {
   padding: 4px 23px;
   border: none;
   border-radius: 100px;
-  background: #ab0300;
+  /* background: #ab0300; */
+  background: #d70401;
   color: #fff;
   font-weight: 500;
   font-size: 20px;
