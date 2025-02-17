@@ -1176,6 +1176,7 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
   background-color: #fff;
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;

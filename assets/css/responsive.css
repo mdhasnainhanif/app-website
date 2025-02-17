@@ -485,10 +485,10 @@
     font-size: 15px;
     height: 39px;
   }
-  .submit::before {
+  /* .submit::before {
     height: 38px;
     top: 5px;
-  }
+  } */
   .form ::placeholder {
     font-size: 13px;
   }
@@ -518,10 +518,10 @@
     font-size: 23px;
     padding: 12px 25px;
   }
-  .border-button a:before {
+  /* .border-button a:before {
     height: 51px;
     top: 9px;
-  }
+  } */
   .service-number h2 {
     font-size: 60px;
   }
@@ -651,10 +651,10 @@
   .requestService-section {
     padding: 0px 0 60px;
   }
-  .requestService-section .border-button a:before {
+  /* .requestService-section .border-button a:before {
     height: 51px;
     top: 8px;
-  }
+  } */
   .service-row p {
     font-size: 20px;
   }
@@ -678,9 +678,9 @@
     position: relative;
     max-width: 250px;
   }
-  .cta-banner2 .border-button a:before {
+  /* .cta-banner2 .border-button a:before {
     height: 52px;
-  }
+  } */
   .glow3 {
     display: none;
   }
@@ -1172,10 +1172,10 @@
     font-size: 15px;
     height: 39px;
   }
-  .submit::before {
+  /* .submit::before {
     height: 38px;
     top: 5px;
-  }
+  } */
   .form ::placeholder {
     font-size: 13px;
   }
@@ -1202,10 +1202,10 @@
     font-size: 16px;
     padding: 9px 24px;
   }
-  .border-button a:before {
+  /* .border-button a:before {
     height: 35px;
     top: 9px;
-  }
+  } */
   .service-number h2 {
     font-size: 60px;
   }
@@ -1335,10 +1335,10 @@
   .requestService-section .border-button {
     float: unset;
   }
-  .requestService-section .border-button a:before {
+  /* .requestService-section .border-button a:before {
     height: 35px;
     top: 8px;
-  }
+  } */
   .service-row p {
     font-size: 16px;
   }
@@ -1394,9 +1394,9 @@
     padding-top: 0px;
     padding-bottom: 50px;
   }
-  .cta-banner2 .border-button a:before {
+  /* .cta-banner2 .border-button a:before {
     height: 35px;
-  }
+  } */
   .glow {
     display: none;
   }
