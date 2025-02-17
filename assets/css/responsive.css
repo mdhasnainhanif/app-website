@@ -968,6 +968,9 @@
   }
 }
 @media (max-width: 576px) {
+  .staff-1 img{
+    max-width: 100%;
+  }
   .logos-slider {
     margin-top: 1.77rem;
   }
