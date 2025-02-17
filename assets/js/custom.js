@@ -318,3 +318,9 @@ $(window).scroll(function () {
       });
   }
 });
+
+// select
+
+$(document).ready(function () {
+  $('select').niceSelect();
+});

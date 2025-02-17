@@ -12,6 +12,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css"
+    integrity="sha512-uHuCigcmv3ByTqBQQEwngXWk7E/NaPYP+CFglpkXPnRQbSubJmEENgh+itRDYbWV0fUZmUz7fD/+JDdeQFD5+A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
@@ -1236,7 +1239,7 @@
                       />
                     </div>
                     <div class="col-12">
-                      <select class="form-select">
+                      <!-- <select class="form-select">
                         <option disabled="" selected="" hidden="">
                           Select your Service
                         </option>
@@ -1245,7 +1248,16 @@
                         <option>Lorem ipsum dolor sit</option>
                         <option>Lorem ipsum dolor sit</option>
                         <option>Lorem ipsum dolor sit</option>
-                      </select>
+                      </select> -->
+                      <div class="service">
+                        <select class="wide mb-4" name="service">
+                            <option value="" disabled selected>Select your Service</option>
+                            <option value="">This is Dummy Text</option>
+                            <option value="">This is Dummy Text</option>
+                            <option value="">This is Dummy Text</option>
+                            <option value="">This is Dummy Text</option>
+                        </select>
+                    </div>
                     </div>
                     <div class="col-12">
                       <textarea
@@ -1378,6 +1390,9 @@
 
     <script src="assets/js/jquery-3.7.1.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/custom.js"></script>
   </body>

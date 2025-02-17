@@ -4891,3 +4891,13 @@ section.androidAppCount .counter-div{
 .submenu-list a:hover:before {
   content: none !important;
 }
+
+.nice-select.wide{
+  border-radius: 30px !important;
+  border-color: #cccccc;
+}
+
+.nice-select::after {
+  height: 0.5rem;
+  width: 0.5rem;
+}
