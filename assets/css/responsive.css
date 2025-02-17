@@ -968,6 +968,9 @@
   }
 }
 @media (max-width: 576px) {
+  .logos-slider {
+    margin-top: 1.77rem;
+  }
   .collapse-menu ul li{
     border-bottom: 1px solid rgb(0 0 0 / 10%);
     padding: 5px 0px;
