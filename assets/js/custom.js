@@ -293,3 +293,27 @@ $('.dropdown-menu2').click(function()
 
 
 
+
+// header fixed
+
+$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 500) {
+      $("header").addClass("header-sticky");
+      $(".bookwriting_dropdown").css({
+          "top": "4.7rem",
+      });
+      $(".more_dropdown").css({
+          "top": "4.7rem",
+      });
+  } else {
+      $("header").removeClass("header-sticky");
+      $(".bookwriting_dropdown").css({
+          "top": "6.9rem",
+      });
+      $(".more_dropdown").css({
+          "top": "6.9rem",
+      });
+  }
+});
