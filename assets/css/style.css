@@ -1163,7 +1163,7 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
 .service-div:hover .service-body .explore i {
   color: #000;
 }
-.desktop-menu.header-sticky {
+.header-sticky {
   position: fixed;
   top: 0;
   left: 0;

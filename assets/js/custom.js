@@ -301,6 +301,7 @@ $(window).scroll(function () {
 
   if (scroll >= 500) {
       $("header").addClass("header-sticky");
+      $("mobile-menu").addClass("header-sticky")
       $(".bookwriting_dropdown").css({
           "top": "4.7rem",
       });
