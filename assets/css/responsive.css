@@ -1142,7 +1142,7 @@
     display: none;
   }
   section.homebanner {
-    height: 500px;
+    height: 550px;
     padding: 0px;
     margin-top: 0;
   }
@@ -1150,7 +1150,7 @@
     top: 50%;
   }
   section.homebanner .banner-wrapper {
-    height: 500px;
+    height: 550px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
@@ -1200,6 +1200,7 @@
   }
   .title {
     font-size: 29px;
+    margin-top: 2rem;
   }
   .border-button a {
     font-size: 16px;
@@ -1336,6 +1337,7 @@
     overflow: hidden;
   }
   .requestService-section .border-button {
+    margin-left: 2rem;
     float: unset;
   }
   /* .requestService-section .border-button a:before {
