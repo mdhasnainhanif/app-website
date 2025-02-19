@@ -324,3 +324,16 @@ $(window).scroll(function () {
 $(document).ready(function () {
   $('select').niceSelect();
 });
+
+
+// book_writing_mobile_drop
+
+
+let book_writing_mobile_drop_li = document.querySelector(".book_writing_mobile_drop_li")
+let book_writing_mobile_drop = document.querySelector(".book_writing_mobile_drop")
+let book_writing_mobile_drop_li_icon = document.querySelector(".book_writing_mobile_drop_li_icon")
+
+book_writing_mobile_drop_li.addEventListener('click', () => {
+    book_writing_mobile_drop.classList.toggle('d-none')
+    book_writing_mobile_drop_li_icon.classList.toggle('rotated');
+})

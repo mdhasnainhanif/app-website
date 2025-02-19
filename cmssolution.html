@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="desktop-menu">
-      <div class="container-fluid">
+      <div class="container">
         <nav>
           <a href="index.html" class="logo">logo</a>
           <!-- <div class="toggle">
@@ -237,47 +237,66 @@
       </div>
     </header>
 
-    <header class="mobile-menu">
-      <div class="container">
-        <nav>
-          <a href="index.html" class="logo">logo</a>
-          <div class="toggle2">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-          <div class="collapse-menu">
-            <ul>
-              <li class="dropdown-menu2">
-                <a href="#"
-                  >services
-                  <i class="fa-solid fa-angle-down angledown"></i>
-                  <i class="fa-solid fa-angle-up angleup"></i>
-                </a>
+    <header class="mobile_menu d-none">
+      <div class="d-flex justify-content-between align-items-center px-3 py-3">
+        <div>
+          <h2 class="h1 fw-bold text-danger">Logo</h2>
+        </div>
+        <div>
+          <i
+            class="fa-solid fa-bars d-block ms-auto w_fit"
+            data-bs-toggle="offcanvas"
+            href="#mobileMenu"
+            role="button"
+            aria-controls="mobileMenu"
+          ></i>
+        </div>
+      </div>
 
-                <div class="mega-menu2">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="android-app-development.html"
-                              >android development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="artificial-intelligence.html"
-                              >artificial intellignence</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li><a href="cmssolution.html">cms solutions</a></li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li><a href="crm-solution.html">crm solutions</a></li>
+      <div
+        class="offcanvas offcanvas-end mobileMenuArea"
+        tabindex="-1"
+        id="mobileMenu"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <h2 class="h1 fw-bold text-danger">Logo</h2>
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <div>
+            <ul class="mobile_menu_ul">
+              <li class="book_writing_mobile_drop_li">
+                <a
+                  class="d-flex justify-content-between align-items-center"
+                  href="javascript:void(0);"
+                  >Services
+                  <i
+                    class="book_writing_mobile_drop_li_icon d-block fa-solid fa-chevron-down"
+                  ></i
+                ></a>
+                <div class="book_writing_mobile_drop d-none mt-2">
+                  <ul>
+                    <li>
+                      <a href="android-app-development.html"
+                        >android development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artificial-intelligence.html"
+                        >artificial intellignence</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li><a href="cmssolution.html">cms solutions</a></li>
+                    <li><a href="crm-solution.html">crm solutions</a></li>
                           <li>
                             <a href="crossplatform.html"
                               >cross platform development</a
@@ -293,110 +312,75 @@
                               >digital marketing services</a
                             >
                           </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="ecommerce-website.html"
-                              >e-commerce website development</a
-                            >
-                          </li>
-                          <li><a href="erp-solution.html">erp solutions</a></li>
-                          <li>
-                            <a href="generative-ai.html">generation ai</a>
-                          </li>
-                          <li>
-                            <a href="hire-androidapp.html"
-                              >hire android app developer</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="hire-ios.html">hire ios app developer</a>
-                          </li>
-                          <li>
-                            <a href="hire-nodejs-development.html"
-                              >hire node js developer</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li>
-                            <a href="ios-development.html"
-                              >ios app development</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="metaverse-development.html"
-                              >metaverse development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="mobile-app-development.html"
-                              >mobile app development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="natural-language.html"
-                              >natural language processing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="nft-development.html">nft development</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="search-engine-marketing.html"
-                              >search engine marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="social-media-marketing.html"
-                              >social media marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="speech-recognition.html"
-                              >speech recognition</a
-                            >
-                          </li>
-                          <li>
-                            <a href="staff-augmentation.html"
-                              >staff augmentation</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                    <li>
+                      <a href="ecommerce-website.html"
+                        >e-commerce website development</a
+                      >
+                    </li>
+                    <li><a href="erp-solution.html">erp solutions</a></li>
+                    <li>
+                      <a href="generative-ai.html">generation ai</a>
+                    </li>
+                    <li>
+                      <a href="hire-androidapp.html"
+                        >hire android app developer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="hire-ios.html">hire ios app developer</a>
+                    </li>
+                    <li>
+                      <a href="hire-nodejs-development.html"
+                        >hire node js developer</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li>
+                      <a href="ios-development.html"
+                        >ios app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="metaverse-development.html"
+                        >metaverse development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mobile-app-development.html"
+                        >mobile app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="natural-language.html"
+                        >natural language processing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="nft-development.html">nft development</a>
+                    </li>
+                    <li>
+                      <a href="search-engine-marketing.html"
+                        >search engine marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="social-media-marketing.html"
+                        >social media marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="speech-recognition.html">speech recognition</a>
+                    </li>
+                    <li>
+                      <a href="staff-augmentation.html">staff augmentation</a>
+                    </li>
+                  </ul>
                 </div>
               </li>
-              <li><a href="#">industry</a></li>
-              <li><a href="#">business models</a></li>
-              <li><a href="#">company</a></li>
-              <li><a href="#">portfolio</a></li>
+              <li><a href="about.html">industry</a></li>
+              <li><a href="book-editing.html">business models</a></li>
+              <li><a href="book-publishing.html">company</a></li>
+              <li><a href="book-printing.html">portfolio</a></li>
               <li class="phone">
                 <i class="fa fa-phone"></i>
                 <a href="tel:111-111-111">111-111-111</a>
@@ -408,7 +392,7 @@
               </li>
             </ul>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -420,11 +404,9 @@
               <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-5 col-12">
                   <div class="banner-content banner-content2">
-                    <h1>Mobile App Development Company USA</h1>
+                    <h1>Perfect CMS Solutions</h1>
                     <p>
-                      Tailored is a leading mobile game development company that
-                      develops high-quality interactive mobile games for iOS and
-                      Android.
+                      From end-to-end content system development to targeted feature enhancements, our CMS solutions enable brands to guide the digital world efficiently. With expertise in developing and implementing bespoke content management systems, we help businesses manage, optimize, and scale their digital presence seamlessly.
                     </p>
 
                     <div class="border-button">
@@ -525,17 +507,12 @@
             <div class="mobileservice-details">
               <div class="service-row">
                 <h2 class="title">
-                  mobile<span> app development</span> services we provide
+                  <span>CMS Solutions</span> Services We Provide
                 </h2>
               </div>
               <p>
-                From ground-up launches to component-focused revamps, our mobile
-                app development company helps brands tackle modern digital
-                growth challenges with custom app development services. Our
-                seasoned team of business analysts, project managers, UI/UX
-                designers, core mobile app developers, quality testers, and
-                growth strategists is here to guide you through each application
-                development stage with high efficiency.
+                From deployments to feature-focused enhancements, Our CMS development solutions empower businesses to overcome modern digital challenges with tailored content management systems. Our skilled team of business analysts, project managers, UI/UX designers, expert developers, quality testers, and content strategists ensures seamless execution at every stage of your CMS journey, delivering efficiency and innovation.
+
               </p>
               <div class="border-button">
                 <a href="#">lets build your game</a>
@@ -554,19 +531,14 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>Custom CMS Development</h4>
                   </div>
                 </div>
+                <p class="m-0">
+                  As a trusted partner among top CMS development companies, We specialize in delivering tailored content management systems that align with your business objectives. Whether it’s a robust eCommerce platform, a dynamic corporate website, or a personalized blog engine, our custom CMS solutions cater to diverse needs.
+                </p>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  Our team ensures seamless integration, scalable architecture, and user-friendly interfaces, empowering you to manage your content effortlessly. From open-source platforms like WordPress and Drupal to headless CMS options, we bring your content vision to life.
                 </p>
               </div>
               <div class="mobileservice-div">
@@ -579,19 +551,14 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>CMS Integration Services</h4>
                   </div>
                 </div>
+                <p class="m-0">
+                  Designed for businesses seeking streamlined workflows, Our CMS integration services connect your existing tools and technologies for enhanced productivity. From CRM and ERP systems to marketing automation platforms, we ensure your content ecosystem functions harmoniously.
+                </p>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  Hire us to design and integrate advanced CMS solutions for superior operational efficiency and data-driven decisions.
                 </p>
               </div>
               <div class="mobileservice-div">
@@ -604,19 +571,14 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>SEO-Optimized CMS Platforms</h4>
                   </div>
                 </div>
+                <p class="m-0">
+                  Empower your digital growth with CMS platforms designed to boost visibility and engagement. Our SEO-optimized systems feature intuitive interfaces and advanced analytics, helping you maintain an edge in competitive markets.
+                </p>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  Collaborate with us to enhance organic traffic and rankings through our expertly crafted CMS platforms.
                 </p>
               </div>
               <div class="mobileservice-div">
@@ -629,19 +591,14 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>CMS Maintenance and Support</h4>
                   </div>
                 </div>
+                <p class="m-0">
+                  Ensure the long-term performance and reliability of your content management system with our dedicated maintenance and support services. From routine updates to resolving technical issues, we provide comprehensive support to keep your CMS running smoothly.
+                </p>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  Our proactive approach includes performance monitoring, bug fixes, and feature enhancements, enabling you to focus on your core business while we handle the technical aspects.
                 </p>
               </div>
             </div>
@@ -725,12 +682,7 @@
             <div class="service-row">
               <h2 class="title">Access Superior <span> CMS </span> Features</h2>
               <p>
-                You must work with the most suitable SEO partner to ensure the
-                best growth of your business’s online presence. At TekRevol, we
-                can help you develop and implement specific SEO solutions that
-                yield tangible outcomes. These values are our driving force,
-                which distinguishes us as the right choice for your digital
-                transformation and growth.
+                Achieve seamless content management and elevate your digital presence with a tailored CMS solution. We design and implement powerful content systems that enhance functionality, drive engagement, and streamline workflows. Our expertise ensures superior results, positioning us as the ideal partner for your digital transformation journey.
               </p>
             </div>
           </div>
@@ -738,61 +690,49 @@
         <div class="row gap1">
           <div class="col-lg-4">
             <div class="cms-column">
-              <h4>Automated Content Management</h4>
+              <h4>Automated Content Solutions</h4>
               <p>
-                These SEO campaigns have always proven a positive impact
-                evidenced by higher rankings and boosted organic traffic for
-                clients.
+                Our CMS platforms offer intuitive automation capabilities, simplifying content management while improving efficiency and accuracy.
               </p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="cms-column">
-              <h4>Automated Content Management</h4>
+              <h4>Optimized Content Workflows</h4>
               <p>
-                These SEO campaigns have always proven a positive impact
-                evidenced by higher rankings and boosted organic traffic for
-                clients.
+                Experience streamlined processes that enable faster publishing, improved collaboration, and consistent quality across all digital channels.
               </p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="cms-column">
-              <h4>Automated Content Management</h4>
+              <h4>Advanced Analytics Integration</h4>
               <p>
-                These SEO campaigns have always proven a positive impact
-                evidenced by higher rankings and boosted organic traffic for
-                clients.
+                Harness the power of integrated analytics to gain actionable insights and refine your content strategies for greater impact.
               </p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="cms-column">
-              <h4>Automated Content Management</h4>
+              <h4>Customizable Features</h4>
               <p>
-                These SEO campaigns have always proven a positive impact
-                evidenced by higher rankings and boosted organic traffic for
-                clients.
+                Tailor your CMS to align with your unique business needs, ensuring a solution that grows and adapts to your goals.
               </p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="cms-column">
-              <h4>Automated Content Management</h4>
+              <h4>Reliable Maintenance and Support</h4>
               <p>
-                These SEO campaigns have always proven a positive impact
-                evidenced by higher rankings and boosted organic traffic for
-                clients.
+                Our dedicated team ensures your CMS runs smoothly with proactive updates, troubleshooting, and enhancements for uninterrupted performance.
               </p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="cms-column">
-              <h4>Automated Content Management</h4>
+              <h4>Scalable Architecture</h4>
               <p>
-                These SEO campaigns have always proven a positive impact
-                evidenced by higher rankings and boosted organic traffic for
-                clients.
+                Build a foundation that supports your business growth with a CMS designed to handle increasing traffic, content volume, and new functionalities seamlessly.
               </p>
             </div>
           </div>
@@ -806,16 +746,10 @@
           <div class="col-lg-8">
             <div class="service-row">
               <h2 class="title">
-                <span>AI Solutions</span> Development Process at TekRevol
+                <span>CMS Solutions</span> Development Process
               </h2>
               <p>
-                We plan and execute performant paid marketing campaigns,
-                targeting high-value keywords and user intent. Our detailed
-                search engine marketing process is structured to curate an
-                industry-specific, rewarding action plan that not only boosts
-                search impressions with above-the-fold placement but also
-                generates clicks and conversions with immersive UI/UX and
-                compelling copywriting.
+                We design and implement AI-driven solutions designed to transform businesses and enhance digital experiences. Our end-to-end development process combines industry expertise with innovative technology to deliver impactful, scalable, and future-ready AI solutions.
               </p>
             </div>
           </div>
@@ -834,11 +768,9 @@
                 <div class="number">01</div>
               </div>
               <div class="aisolution-body">
-                <h3>Business Requirements</h3>
+                <h3>Understanding Business Goals</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  Collaborate with our team to define your objectives and challenges. We analyze your requirements and create a customized AI strategy aligned with your vision and goals.
                 </p>
               </div>
             </div>
@@ -856,11 +788,9 @@
                 <div class="number">02</div>
               </div>
               <div class="aisolution-body">
-                <h3>data collection</h3>
+                <h3>Data Gathering and Analysis</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  Our experts collect and process structured and unstructured data, ensuring accuracy and relevance for optimal model training. This stage lays the groundwork for developing intelligent solutions.
                 </p>
               </div>
             </div>
@@ -878,11 +808,9 @@
                 <div class="number">03</div>
               </div>
               <div class="aisolution-body">
-                <h3>model development</h3>
+                <h3>AI Model Development</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  Using cutting-edge machine learning algorithms and tools, we design and build AI models tailored to your specific business needs. Our team ensures these models are robust, efficient, and ready to scale.
                 </p>
               </div>
             </div>
@@ -900,11 +828,9 @@
                 <div class="number">04</div>
               </div>
               <div class="aisolution-body">
-                <h3>testing and QA</h3>
+                <h3>Rigorous Testing and QA</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  We validate AI models through extensive testing and quality assurance, ensuring high performance, reliability, and compliance with industry standards before deployment.
                 </p>
               </div>
             </div>
@@ -918,12 +844,10 @@
         <div class="row">
           <div class="service-row">
             <h2 class="title">
-              Tech Stack Our <span>Mobile Application Development</span> Company
-              Leverage<span></span>
+              Our <span>CMS Solutions</span>
             </h2>
             <p>
-              Empowering your apps with novel, high-end, and in-demand tech
-              stacks for consistent performance and innovation.
+              Empowering your content management systems with innovative, robust, and future-ready technologies for unparalleled performance and scalability.
             </p>
           </div>
         </div>
@@ -1617,13 +1541,10 @@
           <div class="col-lg-10">
             <div class="service-row">
               <h2 class="title">
-                Your Path to<span> Superior Content </span> Management
+                Your Path to <span>Superior Content Management</span>
               </h2>
               <p>
-                Collaborating with TekRevol streamlines your game idea and turns
-                it into a living and breathing masterpiece. We carefully handle
-                every aspect, ensuring a seamless journey and providing you with
-                a top-tier experience.
+                Partnering with us transforms your vision into a dynamic and efficient content management solution. We meticulously address every aspect, ensuring a seamless process and delivering an exceptional experience tailored to your needs.
               </p>
             </div>
           </div>
@@ -1632,10 +1553,9 @@
           <div class="speriorcontentmanagement-slider">
             <div class="item">
               <div class="contentmanagement-column">
-                <h4>Real-Time Content Updates</h4>
+                <h4>Scalable Frameworks</h4>
                 <p>
-                  Innovating your business by utilizing the latest technologies
-                  for game app development with robust features.
+                  Leveraging frameworks like Laravel, Django, and Node.js to create CMS platforms that grow with your business needs.
                 </p>
 
                 <div class="number">01</div>
@@ -1643,30 +1563,27 @@
             </div>
             <div class="item">
               <div class="contentmanagement-column">
-                <h4>Real-Time Content Updates</h4>
+                <h4>Headless CMS Platforms</h4>
                 <p>
-                  Innovating your business by utilizing the latest technologies
-                  for game app development with robust features.
+                  Building flexible solutions using headless CMS technologies like Strapi and Contentful for modern, API-driven content management.
                 </p>
                 <div class="number">02</div>
               </div>
             </div>
             <div class="item">
               <div class="contentmanagement-column">
-                <h4>Real-Time Content Updates</h4>
+                <h4>Integrated Analytics Tools</h4>
                 <p>
-                  Innovating your business by utilizing the latest technologies
-                  for game app development with robust features.
+                  Embedding tools like Google Analytics and custom dashboards for real-time data insights and strategic decision-making.
                 </p>
                 <div class="number">03</div>
               </div>
             </div>
             <div class="item">
               <div class="contentmanagement-column">
-                <h4>Real-Time Content Updates</h4>
+                <h4>Cloud Integration</h4>
                 <p>
-                  Innovating your business by utilizing the latest technologies
-                  for game app development with robust features.
+                  Utilizing cloud services such as AWS, Google Cloud, and Azure to enhance scalability, security, and reliability for your CMS.
                 </p>
                 <div class="number">04</div>
               </div>
@@ -1682,18 +1599,10 @@
           <div class="col-lg-6 col-md-6 col-12">
             <div class="service-row">
               <h2 class="title">
-                Why Choose Tailored for
-                <span>AI Development</span> Services<span></span>
+                Why Choose Our <span>CMS Development Services</span>?
               </h2>
               <p>
-                Did you know that most businesses—over 90%—use social media to
-                connect with their customers? Even more impressive, 70% of
-                marketers are hitting the mark, effectively reaching their
-                target audience through well-planned social media campaigns. So
-                it's pretty clear that this platform is a game-changer as far as
-                your business goals are concerned. Grab the attention of your
-                audience, and watch brand prosper in the digital world with our
-                social media marketing services!
+                Did you know that over 70% of businesses rely on Content Management Systems (CMS) to manage their website content efficiently? A robust CMS can streamline operations, improve user experience, and enhance SEO performance. At Tailored, we specialize in developing customized CMS solutions that empower businesses to create, manage, and optimize content with ease, driving better engagement and achieving business goals. Let us help you build a powerful, user-friendly CMS that grows with your business and maximizes your online presence!
               </p>
               <div class="border-button">
                 <a href="#">talk to our experts</a>
@@ -1718,7 +1627,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-lg-9">
             <div class="service-row">
-              <h2 class="title"><span> aI development</span> FAQS</h2>
+              <h2 class="title"><span> CMS Solution</span> FAQS</h2>
             </div>
           </div>
         </div>
@@ -1735,7 +1644,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  What is a CMS (Content Management System)?
                   </button>
                 </h2>
                 <div
@@ -1744,9 +1653,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    A CMS is a software platform that allows businesses to create, manage, and modify digital content on their websites without needing technical expertise.
                   </div>
                 </div>
               </div>
@@ -1760,7 +1667,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  What are the benefits of using a CMS?
                   </button>
                 </h2>
                 <div
@@ -1769,9 +1676,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    A CMS simplifies content creation enhances SEO, streamlines collaboration, and allows for easy updates and maintenance of website content.
                   </div>
                 </div>
               </div>
@@ -1785,7 +1690,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  What types of CMS are available?
                   </button>
                 </h2>
                 <div
@@ -1794,9 +1699,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    There are two main types: open-source CMS (like WordPress, and Joomla) and proprietary CMS (like Sitecore, and Adobe Experience Manager) which offer varying levels of customization and support.
                   </div>
                 </div>
               </div>
@@ -1810,7 +1713,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  How do I choose the right CMS for my business?
                   </button>
                 </h2>
                 <div
@@ -1819,9 +1722,7 @@
                   data-bs-parent="#accordion1"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Consider factors like ease of use, scalability, customization options, budget, and your team’s technical expertise when selecting a CMS for your business.
                   </div>
                 </div>
               </div>
@@ -1839,7 +1740,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Can a CMS improve my website’s SEO?
                   </button>
                 </h2>
                 <div
@@ -1848,9 +1749,7 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Yes, most CMS platforms come with built-in SEO tools, such as customizable URLs, meta tags, and plugins, to help enhance your website's search engine rankings.
                   </div>
                 </div>
               </div>
@@ -1864,7 +1763,8 @@
                     aria-expanded="false"
                     aria-controls="collapseSix"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Is it possible to integrate a CMS with other tools?
+
                   </button>
                 </h2>
                 <div
@@ -1873,9 +1773,7 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Yes, many CMS platforms offer integrations with other tools like CRM systems, e-commerce platforms, social media, and marketing automation tools to streamline processes.
                   </div>
                 </div>
               </div>
@@ -1889,7 +1787,8 @@
                     aria-expanded="false"
                     aria-controls="collapseSeven"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  How secure is a CMS platform?
+
                   </button>
                 </h2>
                 <div
@@ -1898,9 +1797,7 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    CMS platforms are generally secure, but it's important to regularly update your software, use strong passwords, and implement security plugins or features to protect your site from vulnerabilities.
                   </div>
                 </div>
               </div>
@@ -1914,7 +1811,8 @@
                     aria-expanded="false"
                     aria-controls="collapseEight"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Can I update my website content without technical skills?
+
                   </button>
                 </h2>
                 <div
@@ -1923,9 +1821,7 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Yes, most CMS solutions are designed to be user-friendly, allowing non-technical users to easily update text, images, and other content on the website.
                   </div>
                 </div>
               </div>

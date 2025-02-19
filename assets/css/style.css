@@ -503,7 +503,14 @@ section.homebanner .banner-wrapper .banner-content p {
 .right-image {
   position: relative;
 }
-.right-image .mobileimg1 {
+.heroImage img{
+  max-width: 33rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  right: 2rem;
+}
+/* .right-image .mobileimg1 {
   position: absolute;
   right: 0;
   top: -119px;
@@ -511,7 +518,7 @@ section.homebanner .banner-wrapper .banner-content p {
   height: 600px;
   max-width: 583px;
   z-index: 2;
-}
+} */
 .right-image .mobileimg13 {
   position: absolute;
   right: -25px;
@@ -749,7 +756,7 @@ section.homebanner.homebanner10 .banner-wrapper .banner-glow15 {
   left: 32px;
   bottom: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 .absolute-center2:before {
   content: "";
@@ -1041,7 +1048,7 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
 
 .border-button a::after {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   left: 50%;
   top: 50%;
   width: 120%;
@@ -1164,6 +1171,26 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
 .service-div:hover .service-body .explore i {
   color: #000;
 }
+.mobile_menu .fa-bars {
+  font-size: 1.66rem;
+}
+.mobile_menu_ul {
+  padding-left: 0rem;
+}
+.mobile_menu_ul li:last-child {
+  border: none !important;
+}
+.mobile_menu_ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem 0rem;
+  text-transform: capitalize;
+}
+.mobile_menu_ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
 .header-sticky {
   position: fixed;
   top: 0;
@@ -1177,6 +1204,21 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
   background-color: #fff;
 }
+
+/* Rotate icon */
+.book_writing_mobile_drop_li_icon {
+  transition: transform 0.3s ease-out;
+}
+
+.book_writing_mobile_drop_li_icon.rotated {
+  transform: rotate(270deg);
+}
+
+.book_writing_mobile_drop{
+  height: 14rem;
+  overflow-y: scroll;
+}
+
 
 @keyframes fadeInDown {
   0% {
@@ -4232,7 +4274,7 @@ section.crossplatform-appdevelopment .container {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  /* height: 100%; */
   background: #14161d;
   border-radius: 10px;
   border: 1px solid #ee0400;
@@ -4901,3 +4943,7 @@ section.androidAppCount .counter-div{
   height: 0.5rem;
   width: 0.5rem;
 }
+
+/* .accordion-button::after{
+  height: unset;
+} */

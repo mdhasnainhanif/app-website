@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="desktop-menu">
-      <div class="container-fluid">
+      <div class="container">
         <nav>
           <a href="index.html" class="logo">logo</a>
           <!-- <div class="toggle">
@@ -237,47 +237,66 @@
       </div>
     </header>
 
-    <header class="mobile-menu">
-      <div class="container">
-        <nav>
-          <a href="index.html" class="logo">logo</a>
-          <div class="toggle2">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-          <div class="collapse-menu">
-            <ul>
-              <li class="dropdown-menu2">
-                <a href="#"
-                  >services
-                  <i class="fa-solid fa-angle-down angledown"></i>
-                  <i class="fa-solid fa-angle-up angleup"></i>
-                </a>
+    <header class="mobile_menu d-none">
+      <div class="d-flex justify-content-between align-items-center px-3 py-3">
+        <div>
+          <h2 class="h1 fw-bold text-danger">Logo</h2>
+        </div>
+        <div>
+          <i
+            class="fa-solid fa-bars d-block ms-auto w_fit"
+            data-bs-toggle="offcanvas"
+            href="#mobileMenu"
+            role="button"
+            aria-controls="mobileMenu"
+          ></i>
+        </div>
+      </div>
 
-                <div class="mega-menu2">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="android-app-development.html"
-                              >android development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="artificial-intelligence.html"
-                              >artificial intellignence</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li><a href="cmssolution.html">cms solutions</a></li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li><a href="crm-solution.html">crm solutions</a></li>
+      <div
+        class="offcanvas offcanvas-end mobileMenuArea"
+        tabindex="-1"
+        id="mobileMenu"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <h2 class="h1 fw-bold text-danger">Logo</h2>
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <div>
+            <ul class="mobile_menu_ul">
+              <li class="book_writing_mobile_drop_li">
+                <a
+                  class="d-flex justify-content-between align-items-center"
+                  href="javascript:void(0);"
+                  >Services
+                  <i
+                    class="book_writing_mobile_drop_li_icon d-block fa-solid fa-chevron-down"
+                  ></i
+                ></a>
+                <div class="book_writing_mobile_drop d-none mt-2">
+                  <ul>
+                    <li>
+                      <a href="android-app-development.html"
+                        >android development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artificial-intelligence.html"
+                        >artificial intellignence</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li><a href="cmssolution.html">cms solutions</a></li>
+                    <li><a href="crm-solution.html">crm solutions</a></li>
                           <li>
                             <a href="crossplatform.html"
                               >cross platform development</a
@@ -293,110 +312,75 @@
                               >digital marketing services</a
                             >
                           </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="ecommerce-website.html"
-                              >e-commerce website development</a
-                            >
-                          </li>
-                          <li><a href="erp-solution.html">erp solutions</a></li>
-                          <li>
-                            <a href="generative-ai.html">generation ai</a>
-                          </li>
-                          <li>
-                            <a href="hire-androidapp.html"
-                              >hire android app developer</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="hire-ios.html">hire ios app developer</a>
-                          </li>
-                          <li>
-                            <a href="hire-nodejs-development.html"
-                              >hire node js developer</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li>
-                            <a href="ios-development.html"
-                              >ios app development</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="metaverse-development.html"
-                              >metaverse development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="mobile-app-development.html"
-                              >mobile app development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="natural-language.html"
-                              >natural language processing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="nft-development.html">nft development</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="search-engine-marketing.html"
-                              >search engine marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="social-media-marketing.html"
-                              >social media marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="speech-recognition.html"
-                              >speech recognition</a
-                            >
-                          </li>
-                          <li>
-                            <a href="staff-augmentation.html"
-                              >staff augmentation</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                    <li>
+                      <a href="ecommerce-website.html"
+                        >e-commerce website development</a
+                      >
+                    </li>
+                    <li><a href="erp-solution.html">erp solutions</a></li>
+                    <li>
+                      <a href="generative-ai.html">generation ai</a>
+                    </li>
+                    <li>
+                      <a href="hire-androidapp.html"
+                        >hire android app developer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="hire-ios.html">hire ios app developer</a>
+                    </li>
+                    <li>
+                      <a href="hire-nodejs-development.html"
+                        >hire node js developer</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li>
+                      <a href="ios-development.html"
+                        >ios app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="metaverse-development.html"
+                        >metaverse development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mobile-app-development.html"
+                        >mobile app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="natural-language.html"
+                        >natural language processing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="nft-development.html">nft development</a>
+                    </li>
+                    <li>
+                      <a href="search-engine-marketing.html"
+                        >search engine marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="social-media-marketing.html"
+                        >social media marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="speech-recognition.html">speech recognition</a>
+                    </li>
+                    <li>
+                      <a href="staff-augmentation.html">staff augmentation</a>
+                    </li>
+                  </ul>
                 </div>
               </li>
-              <li><a href="#">industry</a></li>
-              <li><a href="#">business models</a></li>
-              <li><a href="#">company</a></li>
-              <li><a href="#">portfolio</a></li>
+              <li><a href="about.html">industry</a></li>
+              <li><a href="book-editing.html">business models</a></li>
+              <li><a href="book-publishing.html">company</a></li>
+              <li><a href="book-printing.html">portfolio</a></li>
               <li class="phone">
                 <i class="fa fa-phone"></i>
                 <a href="tel:111-111-111">111-111-111</a>
@@ -408,7 +392,7 @@
               </li>
             </ul>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -420,11 +404,9 @@
               <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-5 col-12">
                   <div class="banner-content banner-content2">
-                    <h1>Mobile App Development Company USA</h1>
+                    <h1>CRM Solutions That Delivers Excellence</h1>
                     <p>
-                      Tailored is a leading mobile game development company that
-                      develops high-quality interactive mobile games for iOS and
-                      Android.
+                      We are a leading provider of CRM solutions, delivering scalable, innovative, and user-centric tools to optimize business operations and enhance customer relationships.
                     </p>
 
                     <div class="border-button">
@@ -525,17 +507,11 @@
             <div class="mobileservice-details">
               <div class="service-row">
                 <h2 class="title">
-                  mobile<span> app development</span> services we provide
+                  <span>CRM Services</span> We Provide
                 </h2>
               </div>
               <p>
-                From ground-up launches to component-focused revamps, our mobile
-                app development company helps brands tackle modern digital
-                growth challenges with custom app development services. Our
-                seasoned team of business analysts, project managers, UI/UX
-                designers, core mobile app developers, quality testers, and
-                growth strategists is here to guide you through each application
-                development stage with high efficiency.
+                From complete system overhauls to customized integrations, our CRM solutions are designed to address the unique challenges of modern businesses. Our team of experienced consultants, project managers, developers, UI/UX specialists, and quality assurance experts work collaboratively to ensure seamless implementation and maximum ROI.
               </p>
               <div class="border-button">
                 <a href="#">lets build your game</a>
@@ -554,19 +530,11 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>Custom CRM Development</h4>
                   </div>
                 </div>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  We stand out as a premier CRM development partner, specializing in crafting systems that align perfectly with your business needs. We build customer management platforms that simplify workflows, automate tasks, and provide actionable insights. Our solutions integrate effortlessly with your existing tools, ensuring a smooth transition. Choose our custom CRM development services to elevate your customer engagement and operational efficiency.
                 </p>
               </div>
               <div class="mobileservice-div">
@@ -579,19 +547,11 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>Cloud-Based CRM Solutions</h4>
                   </div>
                 </div>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  As pioneers in cloud CRM services, we leverage the power of the cloud to deliver secure, accessible, and scalable solutions. Our cloud CRM platforms enable your team to access data anywhere, anytime, fostering better collaboration and decision-making. Trust Tailored for a seamless migration to cloud-based CRM systems that drive growth and adaptability.
                 </p>
               </div>
               <div class="mobileservice-div">
@@ -604,19 +564,11 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>Industry-Specific CRM Services</h4>
                   </div>
                 </div>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  We offer CRM solutions tailored for various industries, including healthcare, retail, finance, and more. We design industry-specific features to address niche challenges, ensuring maximum relevance and value. Whether you need a CRM for patient management, sales tracking, or financial forecasting, our solutions are built to meet your objectives.
                 </p>
               </div>
               <div class="mobileservice-div">
@@ -629,19 +581,28 @@
                     />
                   </div>
                   <div class="mobileservice-heading">
-                    <h4>android app development</h4>
+                    <h4>CRM Integration Services</h4>
                   </div>
                 </div>
                 <p>
-                  Tailored stands out as a preferred choice among the best
-                  mobile game development agency, focusing on delivering
-                  exceptionalAndroid game development services. We breathe life
-                  into your gaming concepts, customizing them to seamlessly
-                  integrate with the Android ecosystem. Our dedicated team,
-                  well-versed in the technical complexities of Android,
-                  guarantees a fluid and captivating user experience. Hire us to
-                  use our Android game development services to build
-                  multiplayer, battle royale, and RPG Android games for users.
+                  We integrate your CRM system with existing tools and software to create a unified platform for enhanced productivity. Our integration services ensure smooth data flow between your CRM and third-party applications such as ERP systems, marketing automation platforms, and customer support tools. Tailored's expertise minimizes disruptions while maximizing efficiency, enabling your business to operate cohesively.
+                </p>
+              </div>
+              <div class="mobileservice-div">
+                <div class="mobileservice-flex">
+                  <div class="mobileservice-icon">
+                    <img
+                      src="assets/images/mobile-service/1.webp"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mobileservice-heading">
+                    <h4>CRM Analytics and Reporting</h4>
+                  </div>
+                </div>
+                <p>
+                  With the help of your customer data with advanced analytics and reporting features. We provide CRM solutions that offer real-time insights, predictive analytics, and customizable dashboards to help you make data-driven decisions. From tracking customer behavior to forecasting sales trends, our analytics tools empower your business with actionable intelligence for sustained growth.
                 </p>
               </div>
             </div>
@@ -976,16 +937,10 @@
           <div class="col-lg-8">
             <div class="service-row">
               <h2 class="title">
-                <span>AI Solutions</span> Development Process at TekRevol
+                Our <span>Development Process</span>
               </h2>
               <p>
-                We plan and execute performant paid marketing campaigns,
-                targeting high-value keywords and user intent. Our detailed
-                search engine marketing process is structured to curate an
-                industry-specific, rewarding action plan that not only boosts
-                search impressions with above-the-fold placement but also
-                generates clicks and conversions with immersive UI/UX and
-                compelling copywriting.
+                We design and implement advanced CRM systems designed to meet your business needs. Our structured development process ensures effortless integration, enhanced functionality, and exceptional user experiences. By aligning technology with your goals, we deliver CRM solutions that optimize workflows, foster collaboration, and drive customer satisfaction.
               </p>
             </div>
           </div>
@@ -1006,9 +961,7 @@
               <div class="aisolution-body">
                 <h3>Business Requirements</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  Collaborate with our CRM experts to define your objectives and identify pain points. We'll develop a custom strategy that addresses your specific challenges and aligns with your operational goals.
                 </p>
               </div>
             </div>
@@ -1026,11 +979,9 @@
                 <div class="number">02</div>
               </div>
               <div class="aisolution-body">
-                <h3>data collection</h3>
+                <h3>Data Collection and Analysis</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  Gather and analyze critical business and customer data to create a robust foundation for your CRM system. Our team ensures data integrity and accuracy to enable informed decision-making.
                 </p>
               </div>
             </div>
@@ -1048,11 +999,9 @@
                 <div class="number">03</div>
               </div>
               <div class="aisolution-body">
-                <h3>model development</h3>
+                <h3>System Design and Development</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  We design a CRM solution with intuitive interfaces and scalable features. Our development process focuses on user-centric functionality and integration with your existing tools.
                 </p>
               </div>
             </div>
@@ -1070,11 +1019,9 @@
                 <div class="number">04</div>
               </div>
               <div class="aisolution-body">
-                <h3>testing and QA</h3>
+                <h3>Testing and QA</h3>
                 <p>
-                  Meet your dedicated account representative to define your
-                  goals. We'll craft a custom SEM strategy, targeting high-value
-                  keywords aligned with your business objectives.
+                  We conduct rigorous testing to validate system performance, usability, and reliability. Our quality assurance experts ensure your CRM solution is ready for deployment, free of errors, and optimized for success.
                 </p>
               </div>
             </div>
@@ -1092,11 +1039,7 @@
                 Our Toolbox for <span>CRM Software</span> Development
               </h2>
               <p>
-                Use the information provided through our in-house developed CRM
-                software to make wiser decisions. Convenient tools for
-                generating reports and analyzing customers’ activity, sales
-                rates, and productive performance enable decision-makers to
-                focus on strategic actions supported by the actual data gained.
+                Use the power of our in-house developed CRM software to get actionable insights and drive smarter decision-making. Our advanced tools enable seamless report generation and in-depth analysis of customer activity, sales performance, and team productivity. With real-time data at your fingertips, decision-makers can focus on strategic actions that yield impactful results and sustained growth.
               </p>
             </div>
           </div>
@@ -1172,14 +1115,10 @@
           <div class="col-lg-8">
             <div class="service-row">
               <h2 class="title">
-                Why Choose Tailored as Your
-                <span> CRM Development </span> Company
+                Why Choose Us as Your <span>CRM Development</span> Company?
               </h2>
               <p>
-                Collaborating with TekRevol streamlines your game idea and turns
-                it into a living and breathing masterpiece. We carefully handle
-                every aspect, ensuring a seamless journey and providing you with
-                a top-tier experience.
+                We bring your CRM vision to life with precision and care. From ideation to deployment, we ensure a development process that prioritizes your business goals. Our commitment to excellence and a customer-focused approach guarantee an unparalleled experience, empowering your business to thrive in a competitive market.
               </p>
             </div>
           </div>
@@ -1189,58 +1128,52 @@
             <div class="crmdevelopment-column">
               <h4>Extensive Industry Experience</h4>
               <p>
-                Innovating your business by utilizing the latest technologies
-                for game app development with robust features.
+                With years of experience across diverse industries, we excel at crafting CRM solutions that address unique challenges. Our expertise ensures your business stays ahead of the curve with cutting-edge tools and features.
               </p>
               <div class="number">01</div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <div class="crmdevelopment-column">
-              <h4>Extensive Industry Experience</h4>
+              <h4>Custom CRM Solutions</h4>
               <p>
-                Innovating your business by utilizing the latest technologies
-                for game app development with robust features.
+                We believe in creating CRM systems customized to align perfectly with your business objectives. From automation to integration, every aspect is designed with your needs in mind.
               </p>
               <div class="number">02</div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <div class="crmdevelopment-column">
-              <h4>Extensive Industry Experience</h4>
+              <h4>User-Centric Design</h4>
               <p>
-                Innovating your business by utilizing the latest technologies
-                for game app development with robust features.
+                Our CRM software prioritizes intuitive user experiences, ensuring that your team can navigate and utilize the system effortlessly. A streamlined design leads to increased productivity and user satisfaction.
               </p>
               <div class="number">03</div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <div class="crmdevelopment-column">
-              <h4>Extensive Industry Experience</h4>
+              <h4>Robust Data Security</h4>
               <p>
-                Innovating your business by utilizing the latest technologies
-                for game app development with robust features.
+                Safeguard your business data with our state-of-the-art security protocols. Our CRM solutions are designed to protect sensitive information, giving you peace of mind while you focus on growth.
               </p>
               <div class="number">04</div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <div class="crmdevelopment-column">
-              <h4>Extensive Industry Experience</h4>
+              <h4>Scalable and Flexible Systems</h4>
               <p>
-                Innovating your business by utilizing the latest technologies
-                for game app development with robust features.
+                As your business grows, your CRM system should too. We deliver scalable solutions that evolve with your requirements, ensuring seamless adaptability without disruption.
               </p>
               <div class="number">05</div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <div class="crmdevelopment-column">
-              <h4>Extensive Industry Experience</h4>
+              <h4>Support and Maintenance</h4>
               <p>
-                Innovating your business by utilizing the latest technologies
-                for game app development with robust features.
+                We don't just develop CRM software—we build lasting partnerships. Our dedicated support team is always ready to assist, ensuring your system operates at its peak performance.
               </p>
               <div class="number">06</div>
             </div>
@@ -1395,7 +1328,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-lg-9">
             <div class="service-row">
-              <h2 class="title"><span> aI development</span> FAQS</h2>
+              <h2 class="title"><span> CRM Solutions </span> FAQS</h2>
             </div>
           </div>
         </div>
@@ -1412,7 +1345,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  What is CRM software?
                   </button>
                 </h2>
                 <div
@@ -1421,9 +1354,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    CRM software helps businesses manage customer interactions, centralize data, and automate processes to improve sales, customer retention, and efficiency.
                   </div>
                 </div>
               </div>
@@ -1437,7 +1368,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  How does CRM benefit my business?
                   </button>
                 </h2>
                 <div
@@ -1446,9 +1377,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    CRM improves customer engagement, streamlines operations, automates tasks, and provides valuable insights to boost sales and productivity.
                   </div>
                 </div>
               </div>
@@ -1462,7 +1391,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Which businesses need CRM software?
                   </button>
                 </h2>
                 <div
@@ -1471,9 +1400,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Any business that interacts with customers, from small startups to large enterprises, can benefit from CRM software to manage relationships and data.
                   </div>
                 </div>
               </div>
@@ -1487,7 +1414,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  What are CRM's key features?
                   </button>
                 </h2>
                 <div
@@ -1496,9 +1423,7 @@
                   data-bs-parent="#accordion1"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Key features include contact management, sales tracking, marketing automation, customer service management, and analytics.
                   </div>
                 </div>
               </div>
@@ -1516,7 +1441,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  How much does CRM software cost?
                   </button>
                 </h2>
                 <div
@@ -1525,9 +1450,8 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    CRM costs vary based on business size, features, and pricing plans, ranging from free versions to custom enterprise solutions.
+
                   </div>
                 </div>
               </div>
@@ -1541,7 +1465,7 @@
                     aria-expanded="false"
                     aria-controls="collapseSix"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  What's the difference between cloud-based and on-premise CRM?
                   </button>
                 </h2>
                 <div
@@ -1550,9 +1474,7 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Cloud-based CRM is accessible online, offering flexibility and lower costs, while on-premise CRM is installed on company servers, providing more control but higher setup costs.
                   </div>
                 </div>
               </div>
@@ -1566,7 +1488,7 @@
                     aria-expanded="false"
                     aria-controls="collapseSeven"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  How do I choose the right CRM?
                   </button>
                 </h2>
                 <div
@@ -1575,9 +1497,7 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Consider your business size, budget, required features, and integrations with existing tools when selecting a CRM system.
                   </div>
                 </div>
               </div>
@@ -1591,7 +1511,7 @@
                     aria-expanded="false"
                     aria-controls="collapseEight"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Can CRM integrate with other systems?
                   </button>
                 </h2>
                 <div
@@ -1600,9 +1520,8 @@
                   data-bs-parent="#accordion2"
                 >
                   <div class="accordion-body">
-                    Inventore nulla culpa, aliquid dolorum totam doloribus
-                    ratione unde consequuntur ipsum, obcaecati nemo iusto, ex
-                    iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                    Yes, most CRM solutions integrate with email, marketing, accounting, and social media tools to streamline data flow and operations.
+
                   </div>
                 </div>
               </div>

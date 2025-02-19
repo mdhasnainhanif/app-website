@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="desktop-menu">
-      <div class="container-fluid">
+      <div class="container">
         <nav>
           <a href="index.html" class="logo">logo</a>
           <!-- <div class="toggle">
@@ -234,166 +234,148 @@
       </div>
     </header>
 
-    <header class="mobile-menu">
-      <div class="container">
-        <nav>
-          <a href="index.html" class="logo">logo</a>
-          <div class="toggle2">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-          <div class="collapse-menu">
-            <ul>
-              <li class="dropdown-menu2">
-                <a href="#"
-                  >services
-                  <i class="fa-solid fa-angle-down angledown"></i>
-                  <i class="fa-solid fa-angle-up angleup"></i>
-                </a>
+    <header class="mobile_menu d-none">
+      <div class="d-flex justify-content-between align-items-center px-3 py-3">
+        <div>
+          <h2 class="h1 fw-bold text-danger">Logo</h2>
+        </div>
+        <div>
+          <i
+            class="fa-solid fa-bars d-block ms-auto w_fit"
+            data-bs-toggle="offcanvas"
+            href="#mobileMenu"
+            role="button"
+            aria-controls="mobileMenu"
+          ></i>
+        </div>
+      </div>
 
-                <div class="mega-menu2">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="android-app-development.html"
-                              >android development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="artificial-intelligence.html"
-                              >artificial intellignence</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li><a href="cmssolution.html">cms solutions</a></li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li><a href="crm-solution.html">crm solutions</a></li>
-                          <li>
-                            <a href="crossplatform.html"
-                              >cross platform development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="customsoftware-development.html"
-                              >custom software development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="digital-marketing.html"
-                              >digital marketing services</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="ecommerce-website.html"
-                              >e-commerce website development</a
-                            >
-                          </li>
-                          <li><a href="erp-solution.html">erp solutions</a></li>
-                          <li>
-                            <a href="generative-ai.html">generation ai</a>
-                          </li>
-                          <li>
-                            <a href="hire-androidapp.html"
-                              >hire android app developer</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="hire-ios.html">hire ios app developer</a>
-                          </li>
-                          <li>
-                            <a href="hire-nodejs-development.html"
-                              >hire node js developer</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li>
-                            <a href="ios-development.html"
-                              >ios app development</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="metaverse-development.html"
-                              >metaverse development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="mobile-app-development.html"
-                              >mobile app development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="natural-language.html"
-                              >natural language processing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="nft-development.html">nft development</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="search-engine-marketing.html"
-                              >search engine marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="social-media-marketing.html"
-                              >social media marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="speech-recognition.html"
-                              >speech recognition</a
-                            >
-                          </li>
-                          <li>
-                            <a href="staff-augmentation.html"
-                              >staff augmentation</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+      <div
+        class="offcanvas offcanvas-end mobileMenuArea"
+        tabindex="-1"
+        id="mobileMenu"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <h2 class="h1 fw-bold text-danger">Logo</h2>
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <div>
+            <ul class="mobile_menu_ul">
+              <li class="book_writing_mobile_drop_li">
+                <a
+                  class="d-flex justify-content-between align-items-center"
+                  href="javascript:void(0);"
+                  >Services
+                  <i
+                    class="book_writing_mobile_drop_li_icon d-block fa-solid fa-chevron-down"
+                  ></i
+                ></a>
+                <div class="book_writing_mobile_drop d-none mt-2">
+                  <ul>
+                    <li>
+                      <a href="android-app-development.html"
+                        >android development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artificial-intelligence.html"
+                        >artificial intellignence</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li><a href="cmssolution.html">cms solutions</a></li>
+                    <li><a href="crm-solution.html">crm solutions</a></li>
+                    <li>
+                      <a href="crossplatform.html"
+                        >cross platform development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="customsoftware-development.html"
+                        >custom software development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="digital-marketing.html"
+                        >digital marketing services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="ecommerce-website.html"
+                        >e-commerce website development</a
+                      >
+                    </li>
+                    <li><a href="erp-solution.html">erp solutions</a></li>
+                    <li>
+                      <a href="generative-ai.html">generation ai</a>
+                    </li>
+                    <li>
+                      <a href="hire-androidapp.html"
+                        >hire android app developer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="hire-ios.html">hire ios app developer</a>
+                    </li>
+                    <li>
+                      <a href="hire-nodejs-development.html"
+                        >hire node js developer</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li>
+                      <a href="ios-development.html">ios app development</a>
+                    </li>
+                    <li>
+                      <a href="metaverse-development.html"
+                        >metaverse development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mobile-app-development.html"
+                        >mobile app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="natural-language.html"
+                        >natural language processing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="nft-development.html">nft development</a>
+                    </li>
+                    <li>
+                      <a href="search-engine-marketing.html"
+                        >search engine marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="social-media-marketing.html"
+                        >social media marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="speech-recognition.html">speech recognition</a>
+                    </li>
+                    <li>
+                      <a href="staff-augmentation.html">staff augmentation</a>
+                    </li>
+                  </ul>
                 </div>
               </li>
-              <li><a href="#">industry</a></li>
-              <li><a href="#">business models</a></li>
-              <li><a href="#">company</a></li>
-              <li><a href="#">portfolio</a></li>
+              <li><a href="about.html">industry</a></li>
+              <li><a href="book-editing.html">business models</a></li>
+              <li><a href="book-publishing.html">company</a></li>
+              <li><a href="book-printing.html">portfolio</a></li>
               <li class="phone">
                 <i class="fa fa-phone"></i>
                 <a href="tel:111-111-111">111-111-111</a>
@@ -405,7 +387,7 @@
               </li>
             </ul>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -417,13 +399,13 @@
               <div class="row justify-content-center align-items-center">
                 <div class="col-lg-7 col-md-6 col-12">
                   <div class="banner-content">
-                    <h1>ERP Software Development Company USA</h1>
+                    <h1>ERP Software Development Company</h1>
                     <p>
-                      Build intuitive, responsive CMS for a consistent and
-                      structured content lifecycle. From content creation and
-                      editing to multi-channel distribution, our CMS development
-                      services help you build a personalized solution with
-                      cross-platform accessibility and elastic infrastructure.
+                      We specialize in delivering best-in-class ERP software
+                      solutions designed to meet the unique needs of businesses
+                      across industries. Our innovative solutions empower
+                      organizations to simplify operations, enhance
+                      productivity, and achieve business excellence.
                     </p>
 
                     <div class="border-button">
@@ -486,17 +468,18 @@
           <div class="col-lg-10">
             <div class="service-row">
               <h2 class="title">
-                How is <span>ERP</span> Implementation Influencing Business
+                How <span>ERP</span> Implementation is Shaping Business
                 Outcomes?
               </h2>
               <p>
-                You can experience improved business operations with custom ERP
-                solutions from our expert ERP developers. As a reputable ERP
-                development company, we ensure the seamless integration of ERP
-                software in your existing system and minimize disruptions to
-                ongoing operations. You may combine business operations and
-                functions into a single system with custom ERP software
-                development.
+                We build intuitive, responsive Content Management Systems (CMS)
+                for a consistent and structured content lifecycle. From content
+                creation and editing to seamless multi-channel distribution, our
+                CMS development services are prepared to help you build
+                personalized solutions featuring cross-platform accessibility
+                and elastic infrastructure. Our approach ensures strong
+                performance and scalability, enabling your business to adapt to
+                evolving market demands.
               </p>
             </div>
           </div>
@@ -509,13 +492,13 @@
         <div class="row">
           <div class="service-row">
             <h2 class="title">
-              When to Consider Tailored's Cross Platform Application Development
-              Services?
+              How does ERP Implementation influence business Outcomes?
             </h2>
             <p>
-              Experience web development prowess with a team specialized in
-              agile project management and delivery. Here are the top web
-              development solutions, businesses trust TekRevol for.
+              Our ERP implementation revolutionizes business operations by
+              integrating core processes into a unified system, improving
+              efficiency, accuracy, and decision-making. As an industry leader,
+              we specialize in:
             </p>
             <div class="border-button">
               <a href="#">lets build your game</a>
@@ -525,28 +508,27 @@
         <div class="row pt-50">
           <div class="col-lg-4 col-md-6 col-12 mb-20">
             <div class="crossplatform-column">
-              <h3>Launching A Cross-Platform App</h3>
+              <h3>Custom ERP Development</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                harum, commodi iusto est facere aperiam.
+                We develop custom ERP solutions designed for your business
+                needs.
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-20">
             <div class="crossplatform-column">
-              <h3>Launching A Cross-Platform App</h3>
+              <h3>ERP Integration</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                harum, commodi iusto est facere aperiam.
+                We ensure you get flawless compatibility with existing systems.
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <div class="crossplatform-column">
-              <h3>Launching A Cross-Platform App</h3>
+              <h3>Advanced Analytics:</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                harum, commodi iusto est facere aperiam.
+                We empower data-driven strategies to get the best results for
+                you.
               </p>
             </div>
           </div>
@@ -577,8 +559,8 @@
           <div class="co-lg-6 col-md-6 col-12">
             <div class="service-row">
               <h2 class="title">
-                Build Best-In-Class Software With Our Professional
-                <span> ERP Developers </span>
+                Build Top-Notch Software with Our Expert
+                <span>ERP Developers</span>
               </h2>
 
               <div class="border-button">
@@ -589,16 +571,19 @@
           <div class="col-lg-6 col-md-6 col-12">
             <div class="service-row mt-4">
               <p>
-                From strategy roadmaps to technical solutions and product
-                development, our ERP developers help startups to million-dollar
-                organizations transform their business operations by smoothly
-                integrating ERP solutions with their existing systems.
+                Change your business operations with our professional ERP
+                developers, trusted by startups and million-dollar enterprises
+                alike. From strategic roadmaps to technical solutions and
+                product development, we seamlessly integrate ERP systems into
+                your existing infrastructure, ensuring efficiency and
+                scalability.
               </p>
               <p class="mb-0">
-                As a leading ERP solutions company, we specialize in developing
-                ERP software with a core focus on creating human-centric
-                solutions, ensuring a flawless integration of technology that
-                aligns with the needs and experiences of users and stakeholders.
+                As a premier ERP solutions provider, we excel in creating
+                software designed with a human-centric approach. Our mission is
+                to deliver technology that not only meets your operational needs
+                but also enhances user and stakeholder experiences, ensuring
+                seamless adoption and long-term success.
               </p>
             </div>
           </div>
@@ -613,21 +598,25 @@
             <div class="service-row">
               <h2 class="title">Our <span>ERP Development</span> Services</h2>
               <p>
-                We assist businesses improve their operational strategies and
-                efficiently manage company operations by deploying
-                next-generation digital technology. Being an industry leader in
-                ERP system development, we offer custom ERP development services
-                that focus on creating a scalable, responsive, and feature-rich
-                business app. Our ERP developers put you in charge of the
-                software by building and configuring it to meet your specific
-                company needs. Here are the services we offer:
+                We assist businesses in improving their operational strategies
+                and efficiently managing company operations by deploying
+                next-generation digital technology. As an industry leader in ERP
+                system development, we offer custom ERP development services
+                focused on creating scalable, responsive, and feature-rich
+                business applications.
+              </p>
+              <p>
+                Our ERP developers empower you to take full control of your
+                software by building and configuring it to meet your unique
+                company needs.
               </p>
 
+              <h5 class="text-start mb-3">Here are the services we offer:</h5>
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <div class="list3">
                     <ul>
-                      <li>ERP implementation consultancy</li>
+                      <li>ERP Implementation Consultancy</li>
                       <li>ERP Mobile Applications Development</li>
                       <li>ERP Customization and Enhancement</li>
                     </ul>
@@ -636,7 +625,7 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <div class="list3">
                     <ul>
-                      <li>ERP implementation consultancy</li>
+                      <li>ERP Implementation Consultancy</li>
                       <li>ERP Mobile Applications Development</li>
                       <li>ERP Customization and Enhancement</li>
                     </ul>
@@ -663,16 +652,13 @@
           <div class="col-lg-10">
             <div class="service-row">
               <h2 class="title">
-                Perks Of Custom <span>ERP Software</span> Development
+                Benefits of Custom <span>ERP Software</span> Development
               </h2>
               <p>
-                You can experience improved business operations with custom ERP
-                solutions from our expert ERP developers. As a reputable ERP
-                development company, we ensure the seamless integration of ERP
-                software in your existing system and minimize disruptions to
-                ongoing operations. You may combine business operations and
-                functions into a single system with custom ERP software
-                development.
+                With our custom ERP solution reach the full potential of your business with expertly crafted ERP solutions designed to your needs. Our seasoned ERP developers specialize in designing and integrating ERP software into your existing systems, ensuring minimal disruption to your daily operations.
+              </p>
+              <p>
+                With custom ERP software, you can unify diverse business functions into a centralized, efficient system, streamlining workflows and driving growth. Experience the advantage of technology designed to simplify complexity and empower your organization to thrive in a competitive market.
               </p>
             </div>
 
@@ -690,11 +676,15 @@
           <div class="service-row">
             <h2 class="title">Technology We Use</h2>
             <p>
-              Our ERP developers are proficient in utilizing the latest
-              technologies to develop software systems. We have extensive
-              experience in implementing powerful ERP platforms with the
-              following popular tools.
+              Our team leverages state-of-the-art technologies to develop robust and scalable ERP solutions. We have extensive experience in implementing powerful ERP platforms using:
             </p>
+            <div class="list3">
+              <ul>
+                <li>Modern Programming Languages and Frameworks</li>
+                <li>Advanced Database Management Systems</li>
+                <li>Secure Cloud-Based Infrastructures</li>
+              </ul>           
+            </div>
           </div>
         </div>
         <div class="row gap1">
@@ -777,12 +767,9 @@
     <section class="ourclient-section">
       <div class="container">
         <div class="row">
-          <h2 class="title">Our Clients</h2>
+          <h2 class="title">Client Success</h2>
           <p>
-            Our ERP developers are proficient in utilizing the latest
-            technologies to develop software systems. We have extensive
-            experience in implementing powerful ERP platforms with the following
-            popular tools.
+            Our expert ERP developers leverage technologies to create robust, customized software solutions. With extensive experience, we specialize in implementing powerful ERP platforms using industry-leading tools to drive efficiency and growth for our clients.
           </p>
         </div>
 

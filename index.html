@@ -17,8 +17,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
   </head>
   <body>
+
     <header class="desktop-menu">
-      <div class="container-fluid">
+      <div class="container">
         <nav>
           <a href="index.html" class="logo">logo</a>
           <!-- <div class="toggle">
@@ -114,7 +115,6 @@
                           <li><a href="web-portal.html">web portals</a></li>
                         </ul>
                       </div>
-                     
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-12">
@@ -163,7 +163,6 @@
                           </li>
                         </ul>
                       </div>
-                      
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-12">
@@ -236,47 +235,66 @@
       </div>
     </header>
 
-    <header class="mobile-menu">
-      <div class="container">
-        <nav>
-          <a href="index.html" class="logo">logo</a>
-          <div class="toggle2">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-          <div class="collapse-menu">
-            <ul>
-              <li class="dropdown-menu2">
-                <a href="#"
-                  >services
-                  <i class="fa-solid fa-angle-down angledown"></i>
-                  <i class="fa-solid fa-angle-up angleup"></i>
-                </a>
+    <header class="mobile_menu d-none">
+      <div class="d-flex justify-content-between align-items-center px-3 py-3">
+        <div>
+          <h2 class="h1 fw-bold text-danger">Logo</h2>
+        </div>
+        <div>
+          <i
+            class="fa-solid fa-bars d-block ms-auto w_fit"
+            data-bs-toggle="offcanvas"
+            href="#mobileMenu"
+            role="button"
+            aria-controls="mobileMenu"
+          ></i>
+        </div>
+      </div>
 
-                <div class="mega-menu2">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="android-app-development.html"
-                              >android development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="artificial-intelligence.html"
-                              >artificial intellignence</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li><a href="cmssolution.html">cms solutions</a></li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li><a href="crm-solution.html">crm solutions</a></li>
+      <div
+        class="offcanvas offcanvas-end mobileMenuArea"
+        tabindex="-1"
+        id="mobileMenu"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <h2 class="h1 fw-bold text-danger">Logo</h2>
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <div>
+            <ul class="mobile_menu_ul">
+              <li class="book_writing_mobile_drop_li">
+                <a
+                  class="d-flex justify-content-between align-items-center"
+                  href="javascript:void(0);"
+                  >Services
+                  <i
+                    class="book_writing_mobile_drop_li_icon d-block fa-solid fa-chevron-down"
+                  ></i
+                ></a>
+                <div class="book_writing_mobile_drop d-none mt-2">
+                  <ul>
+                    <li>
+                      <a href="android-app-development.html"
+                        >android development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artificial-intelligence.html"
+                        >artificial intellignence</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li><a href="cmssolution.html">cms solutions</a></li>
+                    <li><a href="crm-solution.html">crm solutions</a></li>
                           <li>
                             <a href="crossplatform.html"
                               >cross platform development</a
@@ -292,110 +310,75 @@
                               >digital marketing services</a
                             >
                           </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="ecommerce-website.html"
-                              >e-commerce website development</a
-                            >
-                          </li>
-                          <li><a href="erp-solution.html">erp solutions</a></li>
-                          <li>
-                            <a href="generative-ai.html">generation ai</a>
-                          </li>
-                          <li>
-                            <a href="hire-androidapp.html"
-                              >hire android app developer</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="hire-ios.html">hire ios app developer</a>
-                          </li>
-                          <li>
-                            <a href="hire-nodejs-development.html"
-                              >hire node js developer</a
-                            >
-                          </li>
-                          <li><a href="blockchain.html">block chain</a></li>
-                          <li>
-                            <a href="ios-development.html"
-                              >ios app development</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="metaverse-development.html"
-                              >metaverse development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="mobile-app-development.html"
-                              >mobile app development</a
-                            >
-                          </li>
-                          <li>
-                            <a href="natural-language.html"
-                              >natural language processing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="nft-development.html">nft development</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-12">
-                      <div class="submenu-list">
-                        <ul>
-                          <li>
-                            <a href="search-engine-marketing.html"
-                              >search engine marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="social-media-marketing.html"
-                              >social media marketing</a
-                            >
-                          </li>
-                          <li>
-                            <a href="speech-recognition.html"
-                              >speech recognition</a
-                            >
-                          </li>
-                          <li>
-                            <a href="staff-augmentation.html"
-                              >staff augmentation</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                    <li>
+                      <a href="ecommerce-website.html"
+                        >e-commerce website development</a
+                      >
+                    </li>
+                    <li><a href="erp-solution.html">erp solutions</a></li>
+                    <li>
+                      <a href="generative-ai.html">generation ai</a>
+                    </li>
+                    <li>
+                      <a href="hire-androidapp.html"
+                        >hire android app developer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="hire-ios.html">hire ios app developer</a>
+                    </li>
+                    <li>
+                      <a href="hire-nodejs-development.html"
+                        >hire node js developer</a
+                      >
+                    </li>
+                    <li><a href="blockchain.html">block chain</a></li>
+                    <li>
+                      <a href="ios-development.html"
+                        >ios app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="metaverse-development.html"
+                        >metaverse development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mobile-app-development.html"
+                        >mobile app development</a
+                      >
+                    </li>
+                    <li>
+                      <a href="natural-language.html"
+                        >natural language processing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="nft-development.html">nft development</a>
+                    </li>
+                    <li>
+                      <a href="search-engine-marketing.html"
+                        >search engine marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="social-media-marketing.html"
+                        >social media marketing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="speech-recognition.html">speech recognition</a>
+                    </li>
+                    <li>
+                      <a href="staff-augmentation.html">staff augmentation</a>
+                    </li>
+                  </ul>
                 </div>
               </li>
-              <li><a href="#">industry</a></li>
-              <li><a href="#">business models</a></li>
-              <li><a href="#">company</a></li>
-              <li><a href="#">portfolio</a></li>
+              <li><a href="about.html">industry</a></li>
+              <li><a href="book-editing.html">business models</a></li>
+              <li><a href="book-publishing.html">company</a></li>
+              <li><a href="book-printing.html">portfolio</a></li>
               <li class="phone">
                 <i class="fa fa-phone"></i>
                 <a href="tel:111-111-111">111-111-111</a>
@@ -407,7 +390,7 @@
               </li>
             </ul>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -415,9 +398,9 @@
       <div class="container absolute-center">
         <div class="row">
           <div class="banner-wrapper">
-            <div class="absolute-center1">
-              <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-12 col-12">
+            <div class="h-100">
+              <div class="row justify-content-center h-100">
+                <div class="col-lg-6 col-md-12 col-12 my-auto">
                   <div class="banner-content">
                     <h1>Transforming Your Business Digitally</h1>
                     <div class="form">
@@ -444,8 +427,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-5 col-12 display-none1">
-                  <div class="right-image">
+                <div
+                  class="col-lg-6 col-md-5 col-12 display-none1 position-relative d-none d-lg-block"
+                >
+                  <div class="heroImage">
                     <img
                       src="assets/images/homebanner/mobile2.webp"
                       class="img-fluid mobileimg1"
@@ -456,8 +441,8 @@
               </div>
             </div>
             <div class="absolute-center2 display-none1">
-              <div class="row">
-                <div class="col-lg-2 col-md-2 col-12">
+              <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-4 col-12">
                   <div class="icons">
                     <div class="icon-image">
                       <img
@@ -480,7 +465,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-12">
+                <div class="col-lg-2 col-md-4 col-12">
                   <div class="icons">
                     <div class="icon-image">
                       <img
@@ -503,7 +488,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-12">
+                <div class="col-lg-2 col-md-4 col-12">
                   <div class="icons">
                     <div class="icon-image">
                       <img
@@ -531,7 +516,7 @@
             <div class="banner-glow1"></div>
             <div class="banner-glow2"></div>
             <div class="banner-glow14"></div>
-            <div class="banner-glow15"></div>
+            <!-- <div class="banner-glow15"></div> -->
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@
 <body>
 
     <header class="desktop-menu">
-        <div class="container-fluid">
+        <div class="container">
           <nav>
             <a href="index.html" class="logo">logo</a>
             <!-- <div class="toggle">
@@ -235,47 +235,66 @@
         </div>
       </header>
   
-      <header class="mobile-menu">
-        <div class="container">
-          <nav>
-            <a href="index.html" class="logo">logo</a>
-            <div class="toggle2">
-              <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="collapse-menu">
-              <ul>
-                <li class="dropdown-menu2">
-                  <a href="#"
-                    >services
-                    <i class="fa-solid fa-angle-down angledown"></i>
-                    <i class="fa-solid fa-angle-up angleup"></i>
-                  </a>
+      <header class="mobile_menu d-none">
+        <div class="d-flex justify-content-between align-items-center px-3 py-3">
+          <div>
+            <h2 class="h1 fw-bold text-danger">Logo</h2>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-bars d-block ms-auto w_fit"
+              data-bs-toggle="offcanvas"
+              href="#mobileMenu"
+              role="button"
+              aria-controls="mobileMenu"
+            ></i>
+          </div>
+        </div>
   
-                  <div class="mega-menu2">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-3 col-12">
-                        <div class="submenu-list">
-                          <ul>
-                            <li>
-                              <a href="android-app-development.html"
-                                >android development</a
-                              >
-                            </li>
-                            <li>
-                              <a href="artificial-intelligence.html"
-                                >artificial intellignence</a
-                              >
-                            </li>
-                            <li><a href="blockchain.html">block chain</a></li>
-                            <li><a href="cmssolution.html">cms solutions</a></li>
-                          </ul>
-                        </div>
-                      </div>
-  
-                      <div class="col-lg-3 col-md-3 col-12">
-                        <div class="submenu-list">
-                          <ul>
-                            <li><a href="crm-solution.html">crm solutions</a></li>
+        <div
+          class="offcanvas offcanvas-end mobileMenuArea"
+          tabindex="-1"
+          id="mobileMenu"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+              <h2 class="h1 fw-bold text-danger">Logo</h2>
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body pt-0">
+            <div>
+              <ul class="mobile_menu_ul">
+                <li class="book_writing_mobile_drop_li">
+                  <a
+                    class="d-flex justify-content-between align-items-center"
+                    href="javascript:void(0);"
+                    >Services
+                    <i
+                      class="book_writing_mobile_drop_li_icon d-block fa-solid fa-chevron-down"
+                    ></i
+                  ></a>
+                  <div class="book_writing_mobile_drop d-none mt-2">
+                    <ul>
+                      <li>
+                        <a href="android-app-development.html"
+                          >android development</a
+                        >
+                      </li>
+                      <li>
+                        <a href="artificial-intelligence.html"
+                          >artificial intellignence</a
+                        >
+                      </li>
+                      <li><a href="blockchain.html">block chain</a></li>
+                      <li><a href="cmssolution.html">cms solutions</a></li>
+                      <li><a href="crm-solution.html">crm solutions</a></li>
                             <li>
                               <a href="crossplatform.html"
                                 >cross platform development</a
@@ -291,110 +310,75 @@
                                 >digital marketing services</a
                               >
                             </li>
-                          </ul>
-                        </div>
-                      </div>
-  
-                      <div class="col-lg-3 col-md-3 col-12">
-                        <div class="submenu-list">
-                          <ul>
-                            <li>
-                              <a href="ecommerce-website.html"
-                                >e-commerce website development</a
-                              >
-                            </li>
-                            <li><a href="erp-solution.html">erp solutions</a></li>
-                            <li>
-                              <a href="generative-ai.html">generation ai</a>
-                            </li>
-                            <li>
-                              <a href="hire-androidapp.html"
-                                >hire android app developer</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-  
-                      <div class="col-lg-3 col-md-3 col-12">
-                        <div class="submenu-list">
-                          <ul>
-                            <li>
-                              <a href="hire-ios.html">hire ios app developer</a>
-                            </li>
-                            <li>
-                              <a href="hire-nodejs-development.html"
-                                >hire node js developer</a
-                              >
-                            </li>
-                            <li><a href="blockchain.html">block chain</a></li>
-                            <li>
-                              <a href="ios-development.html"
-                                >ios app development</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-  
-                      <div class="col-lg-3 col-md-3 col-12">
-                        <div class="submenu-list">
-                          <ul>
-                            <li>
-                              <a href="metaverse-development.html"
-                                >metaverse development</a
-                              >
-                            </li>
-                            <li>
-                              <a href="mobile-app-development.html"
-                                >mobile app development</a
-                              >
-                            </li>
-                            <li>
-                              <a href="natural-language.html"
-                                >natural language processing</a
-                              >
-                            </li>
-                            <li>
-                              <a href="nft-development.html">nft development</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-  
-                      <div class="col-lg-3 col-md-3 col-12">
-                        <div class="submenu-list">
-                          <ul>
-                            <li>
-                              <a href="search-engine-marketing.html"
-                                >search engine marketing</a
-                              >
-                            </li>
-                            <li>
-                              <a href="social-media-marketing.html"
-                                >social media marketing</a
-                              >
-                            </li>
-                            <li>
-                              <a href="speech-recognition.html"
-                                >speech recognition</a
-                              >
-                            </li>
-                            <li>
-                              <a href="staff-augmentation.html"
-                                >staff augmentation</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                      <li>
+                        <a href="ecommerce-website.html"
+                          >e-commerce website development</a
+                        >
+                      </li>
+                      <li><a href="erp-solution.html">erp solutions</a></li>
+                      <li>
+                        <a href="generative-ai.html">generation ai</a>
+                      </li>
+                      <li>
+                        <a href="hire-androidapp.html"
+                          >hire android app developer</a
+                        >
+                      </li>
+                      <li>
+                        <a href="hire-ios.html">hire ios app developer</a>
+                      </li>
+                      <li>
+                        <a href="hire-nodejs-development.html"
+                          >hire node js developer</a
+                        >
+                      </li>
+                      <li><a href="blockchain.html">block chain</a></li>
+                      <li>
+                        <a href="ios-development.html"
+                          >ios app development</a
+                        >
+                      </li>
+                      <li>
+                        <a href="metaverse-development.html"
+                          >metaverse development</a
+                        >
+                      </li>
+                      <li>
+                        <a href="mobile-app-development.html"
+                          >mobile app development</a
+                        >
+                      </li>
+                      <li>
+                        <a href="natural-language.html"
+                          >natural language processing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="nft-development.html">nft development</a>
+                      </li>
+                      <li>
+                        <a href="search-engine-marketing.html"
+                          >search engine marketing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="social-media-marketing.html"
+                          >social media marketing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="speech-recognition.html">speech recognition</a>
+                      </li>
+                      <li>
+                        <a href="staff-augmentation.html">staff augmentation</a>
+                      </li>
+                    </ul>
                   </div>
                 </li>
-                <li><a href="#">industry</a></li>
-                <li><a href="#">business models</a></li>
-                <li><a href="#">company</a></li>
-                <li><a href="#">portfolio</a></li>
+                <li><a href="about.html">industry</a></li>
+                <li><a href="book-editing.html">business models</a></li>
+                <li><a href="book-publishing.html">company</a></li>
+                <li><a href="book-printing.html">portfolio</a></li>
                 <li class="phone">
                   <i class="fa fa-phone"></i>
                   <a href="tel:111-111-111">111-111-111</a>
@@ -406,7 +390,7 @@
                 </li>
               </ul>
             </div>
-          </nav>
+          </div>
         </div>
       </header>
 
@@ -418,13 +402,11 @@
                         <div class="row justify-content-center align-items-center">
                             <div class="col-lg-7 col-md-7 col-12 my-auto">
                                 <div class="banner-content banner-content2">
-                                    <h1>Access Full-Cycle,High-End Android App Development</h1>
-                                    <p>Tailored is a leading mobile game development
-                                        company that develops high-quality interactive
-                                        mobile games for iOS and Android.</p>
+                                    <h1>Let’s Connect With Top-tier Android App Developers to Launch, Scale and Deliver Projects Timely</h1>
+                                    <p>Looking to build a cutting-edge Android app but lack the specialized talent? Our Staff Augmentation Services provide you with the perfect solution.</p>
     
                                         <div class="border-button">
-                                            <a href="#">Get Quote Now</a>
+                                            <a href="#">Join Us</a>
                                         </div>
                                 </div>
                             </div>
@@ -448,7 +430,7 @@
         <div class="container">
             <div class="row mb-20">
                 <div class="service-row">
-                    <h2 class="title">trusted<span> app development</span> partners</h2>
+                    <h2 class="title">Your Go-to Partners for <span>App <br>Development</span> Services</h2>
                 </div>
             </div>
             <div class="row">
@@ -496,15 +478,12 @@
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="mobileservice-details">
                         <div class="service-row">
-                            <h2 class="title">mobile<span> app development</span> services we provide</h2>
+                            <h2 class="title">Why Hire <span>Android App Developers</span> Through Staff Augmentation?</h2>
                         </div>
-                        <p>From ground-up launches to component-focused revamps, our
-                            mobile app development company helps brands tackle modern
-                            digital growth challenges with custom app development services.
-                            Our seasoned team of business analysts, project managers,
-                            UI/UX designers, core mobile app developers, quality testers,
-                            and growth strategists is here to guide you through each
-                            application development stage with high efficiency.                            
+                        <p>Hiring the right Android app developer is essential to the success of your mobile projects. With the ever-evolving Android ecosystem, it’s crucial to bring in experts who are proficient in Java, Kotlin, Flutter, Android SDK, and other key technologies. Our staff augmentation service lets you access the exact skill set you need, whether you require a solo developer or an entire team.                          
+                        </p>
+                        <p>
+                          Here’s why you should consider our Android app developer augmentation services:
                         </p>
                         <div class="border-button">
                             <a href="#">lets build your game</a>
@@ -519,10 +498,10 @@
                                     <img src="assets/images/mobile-service/1.webp" class="img-fluid" alt="">
                                 </div>
                                 <div class="mobileservice-heading">
-                                    <h4>android app development</h4>
+                                    <h4>Access to Elite Talent</h4>
                                 </div>
                            </div>
-                            <p>Tailored stands out as a preferred choice among the best mobile game development agency, focusing on delivering exceptionalAndroid game development services. We breathe life into your gaming concepts, customizing them to seamlessly integrate with the Android ecosystem. Our dedicated team, well-versed in the technical complexities of Android, guarantees a fluid and captivating user experience. Hire us to use our Android game development services to build multiplayer, battle royale, and RPG Android games for users.
+                            <p>With an extensive network of experienced Android developers, we help you find the best talent suited to your project needs. From senior developers to highly specialized experts, we ensure that the professionals you hire are well-versed in the latest Android trends, tools, and techniques.
                             </p>
                         </div>
                         <div class="mobileservice-div">
@@ -531,10 +510,10 @@
                                      <img src="assets/images/mobile-service/1.webp" class="img-fluid" alt="">
                                  </div>
                                  <div class="mobileservice-heading">
-                                     <h4>android app development</h4>
+                                     <h4>Seamless Integration</h4>
                                  </div>
                             </div>
-                             <p>Tailored stands out as a preferred choice among the best mobile game development agency, focusing on delivering exceptionalAndroid game development services. We breathe life into your gaming concepts, customizing them to seamlessly integrate with the Android ecosystem. Our dedicated team, well-versed in the technical complexities of Android, guarantees a fluid and captivating user experience. Hire us to use our Android game development services to build multiplayer, battle royale, and RPG Android games for users.
+                             <p>Our developers don’t just work for you—they work with you. By blending effortlessly into your existing development team, they enhance productivity and collaboration from day one. You retain full control over the project, while our developers become an extension of your workforce, bringing in fresh ideas and expertise.
                              </p>
                          </div>
                          <div class="mobileservice-div">
@@ -543,10 +522,11 @@
                                      <img src="assets/images/mobile-service/1.webp" class="img-fluid" alt="">
                                  </div>
                                  <div class="mobileservice-heading">
-                                     <h4>android app development</h4>
+                                     <h4>Speed and Flexibility</h4>
                                  </div>
                             </div>
-                             <p>Tailored stands out as a preferred choice among the best mobile game development agency, focusing on delivering exceptionalAndroid game development services. We breathe life into your gaming concepts, customizing them to seamlessly integrate with the Android ecosystem. Our dedicated team, well-versed in the technical complexities of Android, guarantees a fluid and captivating user experience. Hire us to use our Android game development services to build multiplayer, battle royale, and RPG Android games for users.
+                             <p>Time is money, and we know that delays can harm your business. With our Android app developer augmentation, you can hit the ground running without the hassle of a long hiring process. Need someone for a short-term project? Or maybe you require long-term support? We offer flexible engagement models tailored to your unique needs.
+
                              </p>
                          </div>
                          <div class="mobileservice-div">
@@ -555,10 +535,10 @@
                                      <img src="assets/images/mobile-service/1.webp" class="img-fluid" alt="">
                                  </div>
                                  <div class="mobileservice-heading">
-                                     <h4>android app development</h4>
+                                     <h4>Cost-Effective Solution</h4>
                                  </div>
                             </div>
-                             <p>Tailored stands out as a preferred choice among the best mobile game development agency, focusing on delivering exceptionalAndroid game development services. We breathe life into your gaming concepts, customizing them to seamlessly integrate with the Android ecosystem. Our dedicated team, well-versed in the technical complexities of Android, guarantees a fluid and captivating user experience. Hire us to use our Android game development services to build multiplayer, battle royale, and RPG Android games for users.
+                             <p>Say goodbye to expensive hiring processes, onboarding delays, and overhead costs. By augmenting your team with Android developers, you get access to high-level talent without the long-term commitment of permanent hires. You pay for the expertise you need when you need it.
                              </p>
                          </div>
                     </div>
@@ -773,13 +753,9 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 my-auto">
                     <div class="service-row">
-                        <h2 class="title">Solving Your <span>Android App Development</span> Challenges</h2>
+                        <h2 class="title">Scalable Teams for <span>Every Project</span>!</h2>
 
-                        <p class="black-color">From ground-up launches to component-focused revamps, our
-                            mobile app development company helps brands tackle modern
-                            digital growth challenges with custom app development services.
-                            Our seasoned team of business analysts, project managers,
-                            UI/UX designers, core mobile app developers, quality.</p>
+                        <p class="black-color">Whether you’re developing a simple app or a complex, feature-rich mobile platform, we provide developers that scale to meet your project demands. Add more developers as your app grows, or scale down when the project is completed. Staff augmentation gives you total control over your team’s size and composition.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
@@ -796,17 +772,11 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="service-row">
-                        <h2 class="title">Ongoing <span>Success</span> with Our <span>Post-Launch</span> Services</h2>
-                        <p>From ground-up launches to component-focused mobile
-                            app development company helps brands tackle
-                            digital growth challenges with custom app development
-                            Our seasoned team of business analysts, project 
-                            UI/UX designers, core mobile app developers, quality
-                            and growth strategists is here to guide you through each
-                            application development stage with high efficiency.                            
+                        <h2 class="title">Our <span>Android App Developers</span> Can Help With:</h2>
+                        <p>Our team aims to build high-performance apps that leverage the full power of Android.  We create intuitive, user-friendly interfaces that enhance the mobile experience. Moreover, we work on app maintenance and upgrades to keep your app updated, bug-free, and in sync with the latest Android updates.                         
                             </p>
                             <div class="border-button">
-                                <a href="#">let's build you game app</a>
+                                <a href="#">Give Us A Call</a>
                             </div>
                     </div>
                 </div>
@@ -927,52 +897,54 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8">
                     <div class="service-row">
-                        <h2 class="title">Why Choose Tailored as Your <span> CRM Development </span> Company</h2>
-                        <p>Collaborating with TekRevol streamlines your game idea and turns it into a living and breathing masterpiece.
-                            We carefully handle every aspect, ensuring a seamless journey and providing you with a top-tier experience.</p>
+                        <h2 class="title">Why Choose Us for <span>Staff Augmentation</span>?</h2>
+                        <p>When it comes to augmenting your team with Android app developers, choosing the right partner is critical to ensuring seamless integration, high productivity, and successful project delivery. Here’s why companies trust us to provide top-tier Android development talent:</p>
                     </div>
                 </div>
             </div>
             <div class="row gap1">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="crmdevelopment-column">
-                        <h4>Extensive Industry Experience</h4>
-                        <p>Innovating your business by utilizing the latest technologies for game app development with robust features.</p>
+                        <h4>Tailored Fit for Your Needs</h4>
+                        <p>We don't take a one-size-fits-all approach. We dive deep into understanding your project requirements, technology stack, team dynamics, and long-term goals. Whether you're building a consumer-facing app or a complex enterprise solution, we hand-pick developers with the precise skill set and experience that aligns with your vision.
+                        </p>
                         <div class="number">01</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="crmdevelopment-column">
-                        <h4>Extensive Industry Experience</h4>
-                        <p>Innovating your business by utilizing the latest technologies for game app development with robust features.</p>
+                        <h4>Flexible Engagement Models</h4>
+                        <p>Business needs to evolve, and so should your development team. We offer flexible hiring models—full-time, part-time, contract-based, or project-based—allowing you to scale your team quickly based on the project's progress. Whether you need a single developer for a short-term task or a larger team for a long-term initiative, we’ve got you covered.
+                        </p>
                         <div class="number">02</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="crmdevelopment-column">
-                        <h4>Extensive Industry Experience</h4>
-                        <p>Innovating your business by utilizing the latest technologies for game app development with robust features.</p>
+                        <h4>Transparent Communication</h4>
+                        <p>Communication is key to the success of any project. From day one, we ensure that you have complete transparency into your augmented team’s progress. Regular check-ins, status updates, and feedback loops keep everyone aligned, and you’ll never be left wondering about the status of your project. Our developers work directly with your internal team, ensuring smooth collaboration and no bottlenecks.</p>
                         <div class="number">03</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="crmdevelopment-column">
-                        <h4>Extensive Industry Experience</h4>
-                        <p>Innovating your business by utilizing the latest technologies for game app development with robust features.</p>
+                        <h4>Rigorous Vetting Process</h4>
+                        <p>We know that the quality of your mobile app directly impacts your business. That’s why every Android developer we provide goes through a thorough technical and behavioral screening process. We assess not only their coding abilities but also their problem-solving skills, communication style, and work ethic. This ensures that the developers you hire are not only technically proficient but also a good cultural fit for your team.</p>
                         <div class="number">04</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="crmdevelopment-column">
-                        <h4>Extensive Industry Experience</h4>
-                        <p>Innovating your business by utilizing the latest technologies for game app development with robust features.</p>
+                        <h4>Access to Cutting-Edge Technologies</h4>
+                        <p>The Android landscape is constantly evolving. By augmenting your team with our Android experts, you gain access to the latest tools, frameworks, and best practices in the industry. Whether it’s Jetpack Compose, Kotlin Multiplatform, Firebase, or advanced machine learning integration with TensorFlow, we provide developers with the expertise to incorporate the most current and effective technologies into your app.
+                        </p>
                         <div class="number">05</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="crmdevelopment-column">
-                        <h4>Extensive Industry Experience</h4>
-                        <p>Innovating your business by utilizing the latest technologies for game app development with robust features.</p>
+                        <h4>Quick Onboarding and Ramp-Up</h4>
+                        <p>We understand that time is a precious resource in tech development. Our developers are ready to hit the ground running, minimizing downtime and ensuring that you don’t face project delays. With streamlined onboarding processes, they integrate quickly into your existing workflow and start contributing from day one, so you can stay on schedule and within budget.</p>
                         <div class="number">06</div>
                     </div>
                 </div>
@@ -1088,7 +1060,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-9">
                     <div class="service-row">
-                        <h2 class="title"> <span> aI  development</span> FAQS </h2>
+                        <h2 class="title"> <span> Hire Andriod App Developer</span> FAQS </h2>
                     </div>
                 </div>
             </div>
@@ -1098,48 +1070,66 @@
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                              What is Staff Augmentation, and how does it work for Android app development?
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                              Staff augmentation is a flexible outsourcing model that allows you to hire external Android developers on a temporary basis to supplement your in-house team. These developers work under your management and integrate with your existing workflow, bringing in specialized skills for Android app development. It helps you scale your team quickly for a project or specific needs without the commitment of full-time hires.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                              How do I know if staff augmentation is the right solution for my Android app development needs?
                             </button>
                           </h2>
                           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                              Staff augmentation is ideal if you:
+                              <div class="list3">
+                                <ul>
+                                  <li>Need specialized expertise that your in-house team doesn’t have.</li>
+                                  <li>Are working on a time-sensitive project with tight deadlines.</li>
+                                  <li>Want to scale your development team without the long hiring process.</li>
+                                  <li>Require flexibility to adjust team size as your project evolves.</li>
+                               </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                              What type of Android developers can I hire through your staff augmentation services?
                             </button>
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                              We offer a wide range of Android app development talent, including:
+                              <div class="list3">
+                                <ul>
+                                  <li>Junior Android Developers for entry-level tasks.</li>
+                                  <li>Senior Android Developers for complex and high-level tasks, architecture design, and leadership roles.</li>
+                                  <li>Full-Stack Android Developers with expertise in both frontend (UI/UX) and backend development.</li>
+                                  <li>Specialized Experts in areas like Kotlin, Java, Flutter, React Native, Firebase, and advanced Android technologies like Jetpack Compose and Kotlin Multiplatform.</li>
+                               </ul>
+                               
+                              </div>
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                How quickly can I get an Android developer through staff augmentation?
+
                               </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion1">
                               <div class="accordion-body">
-                                  Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                                We pride ourselves on quick turnarounds. Depending on the scope of your needs, we can match you with a qualified Android developer within 7-14 days. The onboarding process is also efficient, allowing the developer to start contributing almost immediately to your project.
                               </div>
                             </div>
                           </div>
@@ -1150,48 +1140,56 @@
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                              Can I manage the augmented Android developers directly?
                             </button>
                           </h2>
                           <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
                             <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                              Yes, absolutely! The augmented Android developers will work as an extension of your internal team and report directly to your project managers or team leads. You maintain full control over the project, timelines, and workflows. Our role is to ensure you have the right talent that aligns with your goals and provides support as needed.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                              What are the advantages of hiring Android developers through staff augmentation compared to full-time hiring?
                             </button>
                           </h2>
                           <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
                             <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                                <div class="list3">
+                                  <ul>
+                                    <li><strong>Flexibility:</strong> Scale the team up or down based on project requirements without long-term commitments.</li>
+                                    <li><strong>Cost-Effectiveness:</strong> Reduce recruitment costs, employee benefits, and overhead expenses.</li>
+                                    <li><strong>Speed:</strong> Avoid lengthy hiring processes and accelerate project timelines.</li>
+                                    <li><strong>Access to Specialized Skills:</strong> Bring in experts for specific technical needs without training in-house staff.</li>
+                                 </ul>
+                                 
+                                </div>
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                What happens if the Android developer I hire doesn’t meet my expectations?
                               </button>
                             </h2>
                             <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordion2">
                               <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                                We carefully vet all candidates before placing them with clients to ensure they meet the required skill set. However, if for any reason the developer doesn’t meet your expectations or isn’t a good fit, we’ll work with you to quickly resolve the issue. This may include finding a replacement developer or adjusting the developer's role based on your feedback. Our goal is to ensure your satisfaction with the results.
                               </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Do you provide ongoing support for the Android apps developed by your augmented team?
                               </button>
                             </h2>
                             <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordion2">
                               <div class="accordion-body">
-                                Inventore nulla culpa, aliquid dolorum totam doloribus ratione unde consequuntur ipsum, obcaecati nemo iusto, ex iure ipsam hic sapiente! Iste, incidunt perspiciatis!
+                                Yes! We offer post-development support and maintenance services. This includes bug fixes, performance optimization, updates, and feature enhancements after the app is launched. Whether you need help with app maintenance or ongoing feature updates, our augmented developers can continue working with your team to keep the app running smoothly.
                               </div>
                             </div>
                         </div>
@@ -1206,10 +1204,8 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8">
                     <div class="service-row">
-                        <h2 class="title">Get In Touch <span>With Us</span> Today</h2>
-                        <p>Tailored, a full-scale web development company, has all the elements to build dynamic and progressive
-                            web products. From customer-facing website and internal management portal to e-commerce store, we ensure
-                            excellence in every project with high-end development and systemic project management.</p>
+                        <h2 class="title">Ready to Accelerate Your <span>Android App Development</span>?</h2>
+                        <p>Hiring Android app developers through staff augmentation is your fast track to delivering high-quality mobile apps. Whether you’re launching a new product or enhancing an existing one, we provide the talent and flexibility you need to succeed.</p>
                     </div>
                 </div>
             </div>
