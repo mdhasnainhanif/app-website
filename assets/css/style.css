@@ -185,7 +185,7 @@ a.logo {
   background: #d70401;
   color: #fff;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   transition: all 250ms ease-in-out;
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
@@ -492,8 +492,8 @@ section.homebanner .banner-wrapper .banner-content p {
   font-family: "BlinkMacSystemFont";
   font-size: 20px;
   width: 100%;
-  max-width: 500px;
-  margin-bottom: 36px;
+  /* max-width: 500px; */
+  /* margin-bottom: 36px; */
 }
 .banner-content {
   position: relative;
@@ -509,6 +509,13 @@ section.homebanner .banner-wrapper .banner-content p {
   position: absolute;
   bottom: 0rem;
   right: 2rem;
+}
+.cloudImage img{
+  max-width: 33rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  right: 1rem;
 }
 /* .right-image .mobileimg1 {
   position: absolute;
@@ -1205,21 +1212,6 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
   background-color: #fff;
 }
 
-/* Rotate icon */
-.book_writing_mobile_drop_li_icon {
-  transition: transform 0.3s ease-out;
-}
-
-.book_writing_mobile_drop_li_icon.rotated {
-  transform: rotate(270deg);
-}
-
-.book_writing_mobile_drop{
-  height: 14rem;
-  overflow-y: scroll;
-}
-
-
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -1234,6 +1226,20 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1 {
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+/* Rotate icon */
+.book_writing_mobile_drop_li_icon {
+  transition: transform 0.3s ease-out;
+}
+
+.book_writing_mobile_drop_li_icon.rotated {
+  transform: rotate(270deg);
+}
+
+.book_writing_mobile_drop{
+  height: 14rem;
+  overflow-y: scroll;
 }
 .service-header {
   position: relative;
@@ -1504,6 +1510,7 @@ section.successstories-section.pt20 {
 }
 .counterdiv-content.counterdiv-firstcontent {
   margin-left: 0;
+  text-align: center;
 }
 .counterdiv-secondcontent {
   text-align: center;
@@ -2346,6 +2353,7 @@ section.mobileservice-section .border-button a {
   display: flex;
   align-items: center;
   margin-bottom: 22px;
+  margin-top: 1rem;
 }
 
 /* logos-section */
@@ -2375,6 +2383,7 @@ section.counter-section .counter-div2:before {
 .counter-div {
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: baseline;
   color: #ee0400;
   padding: 0 30px 0 0;
@@ -4122,7 +4131,7 @@ section.sperior-contentmanagement .service-row p {
   font-family: "BlinkMacSystemFont";
   font-size: 22px;
   font-weight: 700;
-  width: 255px;
+  /* width: 255px; */
   max-width: 500px;
 }
 .contentmanagement-column p {
@@ -4719,7 +4728,7 @@ section.webportalandwebsites-section {
   position: absolute;
   left: 0;
   top: 0;
-  width: calc(100% + 624px);
+  width: calc(100% + 632px);
   height: 60px;
   transform: translateX(-50%);
   background: #ee0400;
@@ -4741,7 +4750,7 @@ section.webportalandwebsites-section {
   position: absolute;
   right: 0;
   top: 0;
-  width: calc(100% + 544px);
+  width: calc(100% + 606px);
   height: 58px;
   transform: translateX(50%);
   background: #ee0400;
@@ -4940,8 +4949,8 @@ section.androidAppCount .counter-div{
 }
 
 .nice-select::after {
-  height: 0.5rem;
-  width: 0.5rem;
+  height: 0.5rem !important;
+  width: 0.5rem !important;
 }
 
 .redShadow{
@@ -4963,9 +4972,9 @@ section.androidAppCount .counter-div{
   filter: blur(4px);
 }
 
-/* .accordion-button::after{
+.faq-section .accordion-button::after{
   height: unset;
-} */
+}
  .black-section .number{
   background: linear-gradient(to top, transparent, #dfc2c2);
   color: transparent;
@@ -4977,4 +4986,7 @@ section.androidAppCount .counter-div{
     width: 3rem;
     margin-bottom: 1.55rem;
     filter: invert(1) brightness(100);
+ }
+ header a{
+  text-decoration: none;
  }

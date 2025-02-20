@@ -23,7 +23,7 @@
     width: calc(100% + 624px);
   }
   .webportal-heading:before {
-    width: calc(100% + 556px);
+    width: calc(100% + 548px);
   }
 }
 @media (max-width: 1400px) {
@@ -36,7 +36,7 @@
     width: 85%;
   }
   .banner-content h1 {
-    font-size: 53px;
+    font-size: 48px;
   }
   .title {
     font-size: 40px;
@@ -173,6 +173,13 @@
   }
 }
 @media (max-width: 1024px) {
+  .megamenu-details img{
+    max-width: 100%;
+  }
+  .mega-menu{
+    top: 428px;
+    height: 680px;
+  }
   .desktop-menu ul li {
     margin-right: 16px;
   }
@@ -411,11 +418,26 @@
   }
 }
 @media (max-width: 820px) {
+  section.counter-section .counter-div2:before{
+    border: none;
+  }
+  .contentmanagement-column{
+    padding-left: 25px;
+  }
   .imageScrollerHidden{
     width: unset;
   }
+  .cms-column:before{
+    border: none;
+  }
+  .cms-column:after{
+    border: none;
+  }
 }
 @media (max-width: 768px) {
+  .smm-1 img{
+    max-width: 100%;
+  }
   .imageScrollerHidden{
     width: unset;
   }
